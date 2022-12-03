@@ -73,7 +73,8 @@
     "price": 38,
     "price_postapoc": 200,
     "material": [ "milk" ],
-    "volume": "250 ml"
+    "volume": "500 ml",
+    "charges": 2
   },
   {
     "type": "COMESTIBLE",
@@ -126,7 +127,8 @@
     "price": 300,
     "price_postapoc": 750,
     "material": [ "milk" ],
-    "volume": "16 ml",
+    "volume": "500 ml",
+    "charges": 32,
     "flags": [ "NO_AUTO_CONSUME" ],
     "fun": -1
   },
@@ -235,7 +237,8 @@
     "price_postapoc": 400,
     "material": [ "milk" ],
     "primary_material": "cheese",
-    "volume": "31 ml",
+    "volume": "250 ml",
+    "charges": 8,
     "fun": 7,
     "vitamins": [ [ "calcium", 16 ] ]
   },
@@ -255,8 +258,9 @@
     "price_postapoc": 400,
     "material": [ "powder", "milk" ],
     "primary_material": "powder",
-    "volume": "25 ml",
+    "volume": "100 ml",
     "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 4,
     "vitamins": [ [ "calcium", 16 ] ],
     "fun": -1,
     "freezing_point": -459
@@ -277,7 +281,8 @@
     "price": 500,
     "price_postapoc": 400,
     "material": [ "milk" ],
-    "volume": "62 ml",
+    "volume": "250 ml",
+    "charges": 4,
     "vitamins": [ [ "calcium", 16 ] ],
     "fun": 4
   },
@@ -297,8 +302,9 @@
     "price_postapoc": 300,
     "material": [ "milk" ],
     "primary_material": "cheese",
-    "volume": "125 ml",
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
+    "charges": 2,
     "fun": 6,
     "vitamins": [ [ "calcium", 19 ], [ "iron", 5 ] ]
   },
@@ -318,9 +324,10 @@
     "price_postapoc": 200,
     "material": [ "powder", "milk" ],
     "primary_material": "powder",
-    "volume": "62 ml",
+    "volume": "250 ml",
     "cooks_like": "milk",
     "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 4,
     "vitamins": [ [ "vitC", 1 ], [ "calcium", 7 ] ],
     "fun": -5,
     "freezing_point": -459

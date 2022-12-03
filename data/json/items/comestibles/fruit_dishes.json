@@ -68,8 +68,9 @@
     "price_postapoc": 250,
     "material": [ "fruit" ],
     "primary_material": "dried_vegetable",
-    "volume": "50 ml",
+    "volume": "250 ml",
     "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 5,
     "vitamins": [ [ "vitC", 21 ], [ "calcium", 2 ], [ "iron", 4 ] ],
     "fun": 3
   },
@@ -128,8 +129,9 @@
     "price": 400,
     "price_postapoc": 150,
     "material": [ "fruit" ],
-    "volume": "250 ml",
+    "volume": "500 ml",
     "fun": 7,
+    "charges": 2,
     "vitamins": [ [ "vitC", 26 ], [ "calcium", 4 ], [ "iron", 6 ] ]
   },
   {
@@ -148,8 +150,9 @@
     "price_postapoc": 10,
     "material": [ "powder", "fruit" ],
     "primary_material": "powder",
-    "volume": "25 ml",
+    "volume": "250 ml",
     "flags": [ "EDIBLE_FROZEN", "SOFT" ],
+    "charges": 10,
     "vitamins": [ [ "vitC", 7 ] ],
     "fun": 1
   },
@@ -421,7 +424,8 @@
     "description": "Fruit slices soaked in a sugar syrup to preserve freshness and appearance.",
     "price": 450,
     "material": [ "fruit" ],
-    "volume": "62 ml",
+    "volume": "250 ml",
+    "charges": 4,
     "fun": 3,
     "vitamins": [ [ "iron", 2 ] ]
   },

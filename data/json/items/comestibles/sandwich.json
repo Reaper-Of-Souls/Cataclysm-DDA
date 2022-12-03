@@ -87,7 +87,8 @@
     "price_postapoc": 300,
     "material": [ "flesh", "veggy", "wheat", "milk" ],
     "primary_material": "processed_food",
-    "volume": "125 ml",
+    "volume": "250 ml",
+    "charges": 2,
     "fun": 12,
     "vitamins": [ [ "vitC", 26 ], [ "calcium", 8 ], [ "iron", 49 ] ]
   },
@@ -115,7 +116,8 @@
     "price_postapoc": 300,
     "material": [ "flesh", "veggy", "wheat", "milk" ],
     "primary_material": "processed_food",
-    "volume": "125 ml",
+    "volume": "250 ml",
+    "charges": 2,
     "fun": 14,
     "vitamins": [ [ "vitC", 26 ], [ "calcium", 8 ], [ "iron", 49 ] ]
   },
@@ -321,7 +323,8 @@
     "price": 900,
     "price_postapoc": 250,
     "material": [ "flesh", "wheat" ],
-    "volume": "150 ml",
+    "volume": "300 ml",
+    "charges": 2,
     "fun": 2,
     "vitamins": [ [ "vitC", 8 ], [ "calcium", 6 ], [ "iron", 47 ] ]
   },
@@ -472,7 +475,8 @@
     "price_postapoc": 250,
     "material": [ "flesh", "veggy", "wheat", "tomato" ],
     "primary_material": "processed_food",
-    "volume": "125 ml",
+    "volume": "250 ml",
+    "charges": 2,
     "flags": [ "EATEN_HOT" ],
     "fun": 8,
     "vitamins": [ [ "vitC", 10 ], [ "calcium", 7 ], [ "iron", 18 ] ]
@@ -523,7 +527,8 @@
     "price_postapoc": 300,
     "material": [ "flesh", "veggy", "milk" ],
     "primary_material": "processed_food",
-    "volume": "125 ml",
+    "volume": "250 ml",
+    "charges": 2,
     "fun": 12,
     "vitamins": [ [ "vitC", 26 ], [ "calcium", 8 ], [ "iron", 49 ] ]
   },
@@ -551,7 +556,8 @@
     "price_postapoc": 300,
     "material": [ "flesh", "veggy", "milk" ],
     "primary_material": "processed_food",
-    "volume": "125 ml",
+    "volume": "250 ml",
+    "charges": 2,
     "fun": 14,
     "vitamins": [ [ "vitC", 26 ], [ "calcium", 8 ], [ "iron", 49 ] ]
   },
@@ -760,7 +766,8 @@
     "price": 900,
     "price_postapoc": 250,
     "material": [ "flesh", "veggy" ],
-    "volume": "150 ml",
+    "volume": "300 ml",
+    "charges": 2,
     "fun": 2,
     "vitamins": [ [ "vitC", 8 ], [ "calcium", 6 ], [ "iron", 47 ] ]
   },
@@ -882,7 +889,8 @@
     "price_postapoc": 250,
     "material": [ "flesh", "veggy", "tomato" ],
     "primary_material": "processed_food",
-    "volume": "125 ml",
+    "volume": "250 ml",
+    "charges": 2,
     "flags": [ "EATEN_HOT" ],
     "fun": 8,
     "vitamins": [ [ "vitC", 10 ], [ "calcium", 7 ], [ "iron", 18 ] ]

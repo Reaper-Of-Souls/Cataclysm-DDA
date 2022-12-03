@@ -40,9 +40,10 @@
     "description": "Raw, refined protein.  While quite nutritious, it is impossible to enjoy in its pure form, try adding water.",
     "//": "1 g of protein powder is 0.959 ml, 1 serving is 28g and 27ml",
     "weight": "28 g",
-    "volume": "27 ml",
+    "volume": "243 ml",
     "price": 1100,
     "price_postapoc": 100,
+    "charges": 9,
     "flags": [ "EDIBLE_FROZEN" ],
     "material": [ "powder" ],
     "symbol": "%",
@@ -88,7 +89,8 @@
     "material": [ "fruit" ],
     "calories": 150,
     "fun": 4,
-    "volume": "250 ml",
+    "volume": "500 ml",
+    "charges": 2,
     "quench": 20,
     "relative": { "vitamins": [ [ "vitC", 20 ] ] }
   },
@@ -147,7 +149,8 @@
     "material": [ "fruit", "milk" ],
     "calories": 165,
     "fun": 5,
-    "volume": "250 ml",
+    "volume": "500 ml",
+    "charges": 2,
     "quench": 18,
     "relative": { "vitamins": [ [ "vitC", 20 ] ] }
   }

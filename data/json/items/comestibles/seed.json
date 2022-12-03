@@ -314,9 +314,10 @@
     "calories": 4,
     "description": "Cloves of garlic.  Useful as a seasoning, or for planting.",
     "price": 50,
+    "charges": 6,
     "stack_size": 6,
     "material": [ "garlic" ],
-    "volume": "25 ml",
+    "volume": "150 ml",
     "fun": -3,
     "seed_data": { "plant_name": "garlic", "fruit": "garlic", "byproducts": [ "withered" ], "grow": "65 days" }
   },
@@ -790,9 +791,10 @@
     "price_postapoc": 50,
     "material": [ "veggy" ],
     "primary_material": "dried_vegetable",
-    "volume": "62 ml",
+    "volume": "250 ml",
     "flags": [ "SMOKED" ],
     "freezing_point": -274,
+    "charges": 4,
     "fun": 3
   },
   {
@@ -812,7 +814,8 @@
     "price_postapoc": 50,
     "material": [ "veggy" ],
     "primary_material": "dried_vegetable",
-    "volume": "62 ml",
+    "volume": "250 ml",
+    "charges": 4,
     "fun": -10,
     "flags": [ "HIDDEN_POISON", "RAW" ],
     "use_action": [ "POISON" ],

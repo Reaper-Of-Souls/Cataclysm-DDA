@@ -17,7 +17,8 @@
     "price_postapoc": 0,
     "material": [ "feces" ],
     "contamination": [ { "disease": "highly_contaminated_food", "probability": 100 } ],
-    "volume": "62 ml",
+    "volume": "250 ml",
+    "charges": 4,
     "stack_size": 4,
     "fun": -25
   },
@@ -85,7 +86,8 @@
     "price_postapoc": 0,
     "material": [ "chitin" ],
     "flags": [ "NO_SALVAGE" ],
-    "volume": "62 ml",
+    "volume": "250 ml",
+    "charges": 4,
     "stack_size": 4
   }
 ]

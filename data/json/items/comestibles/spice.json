@@ -97,10 +97,11 @@
     "price_postapoc": 300,
     "material": [ "powder", "junk" ],
     "primary_material": "powder",
-    "volume": "4 ml",
+    "volume": "250 ml",
     "calories": 19,
     "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
-    "//": "a tbsp is 4.2g of sugar, meaning the volume needed to be adjusted."
+    "//": "a tbsp is 4.2g of sugar, meaning the volume needed to be adjusted.",
+    "charges": 71
   },
   {
     "type": "COMESTIBLE",
@@ -129,7 +130,8 @@
     "price": 190,
     "price_postapoc": 50,
     "material": [ "veggy" ],
-    "volume": "12 ml",
+    "volume": "250 ml",
+    "charges": 20,
     "flags": [ "EDIBLE_FROZEN", "RAW" ],
     "stack_size": 100,
     "fun": -1
