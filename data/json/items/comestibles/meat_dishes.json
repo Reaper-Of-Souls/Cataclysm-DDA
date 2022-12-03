@@ -126,10 +126,9 @@
     "calories": 385,
     "description": "A type of German sausage made of pre-cooked meat and blood.  Better eat it hot and fresh.",
     "price": 1800,
-    "volume": "1500 ml",
+    "volume": "150 ml",
     "//": "volume and weight for a roughly 25cm length, 2.5cm diameter link, estimated",
     "material": [ "flesh" ],
-    "charges": 10,
     "flags": [ "EATEN_HOT" ],
     "fun": 2
   },
@@ -152,10 +151,9 @@
     "calories": 297,
     "description": "A type of German sausage made of finely-chopped meat, meant to be pan-fried or roasted.  Better eat it hot and fresh.",
     "price": 1800,
-    "volume": "1500 ml",
+    "volume": "150 ml",
     "//": "volume and weight for a roughly 25cm length, 2.5cm diameter link, estimated",
     "material": [ "flesh" ],
-    "charges": 10,
     "flags": [ "EATEN_HOT" ],
     "fun": 5
   },
@@ -191,11 +189,10 @@
     "calories": 398,
     "description": "A thick slab of salty cured bacon.  Shelf stable, precooked and ready-to-eat, it tastes better when reheated.",
     "price": 1900,
-    "volume": "100 ml",
+    "volume": "50 ml",
     "//": "I am not sure how much a 'charge' is meant to be, but a slice is around 10mL displacement volume, with a weight of 8g and about 40kcal.  Based this on that.",
     "price_postapoc": 500,
     "material": [ "flesh" ],
-    "charges": 2,
     "flags": [ "EATEN_HOT", "SMOKED" ],
     "vitamins": [ [ "vitC", 0 ], [ "calcium", 0 ], [ "iron", 6 ] ],
     "fun": 5
@@ -235,10 +232,9 @@
     "calories": 270,
     "description": "Also known as pork rinds or chicharrones, these are bits of edible fat and skin that have been fried until they are crispy and delicious.",
     "price": 170,
-    "volume": "100 ml",
+    "volume": "25 ml",
     "price_postapoc": 500,
     "material": [ "flesh" ],
-    "charges": 4,
     "flags": [ "EATEN_HOT" ],
     "vitamins": [ [ "vitC", 0 ], [ "calcium", 0 ], [ "iron", 3 ] ],
     "fun": 4
@@ -291,8 +287,7 @@
     "price_postapoc": 1000,
     "material": [ "flesh", "veggy" ],
     "primary_material": "flesh",
-    "volume": "750 ml",
-    "charges": 3,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 18,
     "vitamins": [ [ "vitC", 17 ], [ "calcium", 8 ], [ "iron", 32 ] ]
@@ -313,8 +308,7 @@
     "price_postapoc": 1500,
     "material": [ "flesh", "veggy" ],
     "primary_material": "flesh",
-    "volume": "750 ml",
-    "charges": 3,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 18,
     "vitamins": [ [ "vitC", 17 ], [ "calcium", 8 ], [ "iron", 32 ] ]
@@ -340,8 +334,7 @@
     "price": 900,
     "price_postapoc": 350,
     "material": [ "flesh" ],
-    "volume": "250 ml",
-    "charges": 2,
+    "volume": "125 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 10,
     "vitamins": [ [ "calcium", 20 ], [ "iron", 10 ] ]
@@ -542,10 +535,9 @@
     "weight": "150 g",
     "calories": 115,
     "description": "Quahog clams stuffed with bread crumbs and fried.",
-    "volume": "175 ml",
+    "volume": "35 ml",
     "looks_like": "fish_fried",
     "fun": 13,
-    "charges": 5,
     "vitamins": [ [ "calcium", 2 ], [ "iron", 5 ] ]
   },
   {
@@ -589,8 +581,7 @@
     "price": 1000,
     "price_postapoc": 250,
     "material": [ "flesh" ],
-    "volume": "750 ml",
-    "charges": 10,
+    "volume": "75 ml",
     "vitamins": [ [ "vitC", 0 ], [ "calcium", 6 ], [ "iron", 5 ] ]
   },
   {
@@ -632,8 +623,7 @@
     "price": 400,
     "price_postapoc": 300,
     "material": [ "flesh" ],
-    "volume": "500 ml",
-    "charges": 6,
+    "volume": "83 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": -8,
     "vitamins": [ [ "iron", 3 ] ]
@@ -789,9 +779,8 @@
     "price": 250,
     "price_postapoc": 200,
     "material": [ "flesh", "wheat" ],
-    "volume": "500 ml",
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
-    "charges": 2,
     "vitamins": [ [ "calcium", 5 ], [ "iron", 27 ] ]
   },
   {
@@ -822,10 +811,9 @@
     "price": 290,
     "price_postapoc": 500,
     "material": [ "flesh", "veggy", "bean", "tomato" ],
-    "volume": "500 ml",
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 5,
-    "charges": 2,
     "vitamins": [ [ "vitC", 7 ], [ "calcium", 7 ], [ "iron", 27 ] ]
   },
   {
@@ -844,8 +832,7 @@
     "price": 200,
     "price_postapoc": 300,
     "material": [ "flesh", "bean" ],
-    "volume": "500 ml",
-    "charges": 2,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 5,
     "vitamins": [ [ "vitC", 0 ], [ "calcium", 14 ], [ "iron", 32 ] ]
@@ -903,8 +890,7 @@
     "price": 400,
     "price_postapoc": 600,
     "material": [ "flesh" ],
-    "volume": "500 ml",
-    "charges": 2,
+    "volume": "250 ml",
     "fun": 1,
     "vitamins": [ [ "calcium", 3 ], [ "iron", 18 ] ]
   },
@@ -923,9 +909,8 @@
     "price": 310,
     "price_postapoc": 700,
     "material": [ "flesh" ],
-    "volume": "500 ml",
+    "volume": "250 ml",
     "fun": 3,
-    "charges": 2,
     "vitamins": [ [ "calcium", 34 ], [ "iron", 34 ] ]
   },
   {
@@ -968,8 +953,7 @@
     "price": 400,
     "price_postapoc": 400,
     "material": [ "flesh", "milk" ],
-    "volume": "500 ml",
-    "charges": 2,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 6,
     "vitamins": [ [ "vitC", 14 ], [ "calcium", 7 ], [ "iron", 16 ] ]
@@ -989,8 +973,7 @@
     "price": 700,
     "price_postapoc": 400,
     "material": [ "bean", "flesh" ],
-    "volume": "1 L",
-    "charges": 2,
+    "volume": "500 ml",
     "//": "One beans + one protein = 2 servings",
     "flags": [ "EATEN_HOT" ],
     "fun": 4,
@@ -1011,8 +994,7 @@
     "price": 700,
     "price_postapoc": 400,
     "material": [ "veggy", "flesh" ],
-    "volume": "1 L",
-    "charges": 2,
+    "volume": "500 ml",
     "//": "One rice + one protein/veg = 2 servings",
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 5,
@@ -1033,8 +1015,7 @@
     "price": 750,
     "price_postapoc": 400,
     "material": [ "veggy", "bean", "flesh" ],
-    "volume": "375 ml",
-    "charges": 2,
+    "volume": "188 ml",
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 4,
     "vitamins": [ [ "vitC", 5 ], [ "calcium", 4 ], [ "iron", 10 ] ]
@@ -1060,8 +1041,7 @@
     "price": 1350,
     "price_postapoc": 2000,
     "material": [ "wheat", "flesh" ],
-    "volume": "2 L",
-    "charges": 8,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 3,
     "vitamins": [ [ "calcium", 2 ], [ "iron", 14 ] ]
@@ -1086,8 +1066,7 @@
     "price": 1090,
     "price_postapoc": 1000,
     "material": [ "wheat", "flesh" ],
-    "volume": "1 L",
-    "charges": 4,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 10,
     "vitamins": [ [ "vitC", 0 ], [ "calcium", 44 ], [ "iron", 36 ] ]
@@ -1126,8 +1105,7 @@
     "price": 700,
     "price_postapoc": 450,
     "material": [ "egg", "flesh" ],
-    "volume": "250 ml",
-    "charges": 3,
+    "volume": "83 ml",
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 4,
     "vitamins": [ [ "vitC", 2 ], [ "calcium", 4 ], [ "iron", 39 ] ]
@@ -1193,8 +1171,7 @@
     "price": 1000,
     "price_postapoc": 1200,
     "material": [ "wheat", "flesh" ],
-    "volume": "1750 ml",
-    "charges": 8,
+    "volume": "219 ml",
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 4,
     "vitamins": [ [ "vitC", 5 ], [ "calcium", 3 ], [ "iron", 9 ] ]
@@ -1220,8 +1197,7 @@
     "price_postapoc": 300,
     "material": [ "flesh", "wheat", "milk" ],
     "primary_material": "processed_food",
-    "volume": "2 L",
-    "charges": 8,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 15,
     "vitamins": [ [ "vitC", 6 ], [ "calcium", 22 ], [ "iron", 17 ] ]
@@ -1555,8 +1531,7 @@
     "price": 350,
     "price_postapoc": 300,
     "material": [ "veggy", "flesh" ],
-    "volume": "750 ml",
-    "charges": 3,
+    "volume": "250 ml",
     "fun": 14,
     "vitamins": [ [ "vitC", 23 ], [ "calcium", 3 ], [ "iron", 3 ] ]
   },
@@ -1575,8 +1550,7 @@
     "price": 370,
     "price_postapoc": 300,
     "material": [ "veggy", "flesh" ],
-    "volume": "1 L",
-    "charges": 2,
+    "volume": "500 ml",
     "fun": 13,
     "vitamins": [ [ "vitC", 36 ], [ "calcium", 4 ], [ "iron", 37 ] ]
   },
@@ -1628,8 +1602,7 @@
     "price": 350,
     "price_postapoc": 400,
     "material": [ "flesh", "wheat" ],
-    "volume": "500 ml",
-    "charges": 2,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 6,
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ], [ "iron", 15 ] ]
@@ -1650,8 +1623,7 @@
     "price": 700,
     "price_postapoc": 500,
     "material": [ "flesh", "veggy" ],
-    "volume": "250 ml",
-    "charges": 3,
+    "volume": "83 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 7,
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 19 ], [ "iron", 12 ] ]
@@ -1712,8 +1684,7 @@
     "price": 750,
     "price_postapoc": 400,
     "material": [ "veggy", "bean", "flesh" ],
-    "volume": "220 ml",
-    "charges": 2,
+    "volume": "110 ml",
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 4,
     "vitamins": [ [ "vitC", 8 ], [ "calcium", 5 ], [ "iron", 11 ] ]
@@ -1733,10 +1704,9 @@
     "price": 750,
     "price_postapoc": 400,
     "material": [ "veggy", "flesh", "milk" ],
-    "volume": "120 ml",
+    "volume": "20 ml",
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 4,
-    "charges": 6,
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 18 ], [ "iron", 6 ] ]
   }
 ]
