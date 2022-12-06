@@ -156,7 +156,6 @@
     "description": "Some sugar beet seeds.",
     "volume": "1 ml",
     "weight": "5 g",
-    "stack_size": 40,
     "seed_data": { "plant_name": "sugar beet", "fruit": "sugar_beet", "grow": "90 days" }
   },
   {
@@ -314,10 +313,8 @@
     "calories": 4,
     "description": "Cloves of garlic.  Useful as a seasoning, or for planting.",
     "price": 50,
-    "charges": 6,
-    "stack_size": 6,
     "material": [ "garlic" ],
-    "volume": "150 ml",
+    "volume": "25 ml",
     "fun": -3,
     "seed_data": { "plant_name": "garlic", "fruit": "garlic", "byproducts": [ "withered" ], "grow": "65 days" }
   },
@@ -417,8 +414,7 @@
     "price": 0,
     "material": [ "fruit" ],
     "primary_material": "dried_vegetable",
-    "volume": "100 ml",
-    "stack_size": 10,
+    "volume": "10 ml",
     "fun": 30,
     "flags": [ "NO_AUTO_CONSUME" ],
     "seed_data": { "fruit": "null", "//": "dummy entry, results are hardcoded", "plant_name": "Marloss berry", "grow": "91 days" }
@@ -791,10 +787,9 @@
     "price_postapoc": 50,
     "material": [ "veggy" ],
     "primary_material": "dried_vegetable",
-    "volume": "250 ml",
+    "volume": "62 ml",
     "flags": [ "SMOKED" ],
     "freezing_point": -274,
-    "charges": 4,
     "fun": 3
   },
   {
@@ -814,8 +809,7 @@
     "price_postapoc": 50,
     "material": [ "veggy" ],
     "primary_material": "dried_vegetable",
-    "volume": "250 ml",
-    "charges": 4,
+    "volume": "62 ml",
     "fun": -10,
     "flags": [ "HIDDEN_POISON", "RAW" ],
     "use_action": [ "POISON" ],
@@ -837,10 +831,9 @@
     "addiction_type": "caffeine",
     "addiction_potential": 1,
     "calories": 549,
-    "volume": "250 ml",
+    "volume": "6 ml",
     "vitamins": [ [ "calcium", 4 ], [ "iron", 8 ] ],
     "flags": [ "EDIBLE_FROZEN", "RAW", "NO_AUTO_CONSUME" ],
-    "stack_size": 40,
     "weight": "106 g"
   },
   {

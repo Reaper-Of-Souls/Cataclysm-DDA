@@ -6,7 +6,6 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
-    "charges": 4,
     "time": "20 m",
     "batch_time_factors": [ 50, 2 ],
     "autolearn": true,
@@ -27,7 +26,8 @@
         [ "garlic_clove", 2 ]
       ],
       [ [ "any_butter_or_oil", 1, "LIST" ] ]
-    ]
+    ],
+    "count": 4
   },
   {
     "type": "recipe",
@@ -36,7 +36,6 @@
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
-    "charges": 1,
     "time": "8 m",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
@@ -56,6 +55,7 @@
       ],
       [ [ "any_butter_or_oil", 2, "LIST" ] ],
       [ [ "aluminum_foil", 1 ] ]
-    ]
+    ],
+    "count": 1
   }
 ]

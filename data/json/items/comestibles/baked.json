@@ -14,8 +14,7 @@
     "price": 50,
     "price_postapoc": 5,
     "material": [ "fruit" ],
-    "volume": "35 ml",
-    "stack_size": 24,
+    "volume": "1 ml",
     "fun": 3,
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
   }

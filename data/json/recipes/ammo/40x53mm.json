@@ -11,7 +11,6 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
-    "charges": 1,
     "reversible": true,
     "using": [ [ "shot_forming", 12 ], [ "ammo_bullet", 126 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -24,7 +23,8 @@
       [ [ "gunpowder_shotgun", 134 ] ],
       [ [ "40x53mm_m169_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ]
-    ]
+    ],
+    "count": 1
   },
   {
     "result": "40x53mm_slug_m169",
@@ -38,7 +38,6 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
-    "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 12 ], [ "ammo_bullet", 115 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -51,7 +50,8 @@
       [ [ "gunpowder_shotgun", 194 ] ],
       [ [ "40x53mm_m169_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ]
-    ]
+    ],
+    "count": 1
   },
   {
     "result": "40x53mm_flechette_m169",
@@ -65,7 +65,6 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
-    "charges": 1,
     "reversible": true,
     "tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
@@ -78,7 +77,8 @@
       [ [ "gunpowder_shotgun", 86 ] ],
       [ [ "40x53mm_m169_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ]
-    ]
+    ],
+    "count": 1
   },
   {
     "result": "bp_40x53mm_buckshot_m169",
@@ -92,7 +92,6 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
-    "charges": 1,
     "reversible": true,
     "using": [ [ "shot_forming", 12 ], [ "ammo_bullet", 126 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -104,7 +103,8 @@
       [ [ "chem_black_powder", 134 ] ],
       [ [ "40x53mm_m169_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ]
-    ]
+    ],
+    "count": 1
   },
   {
     "result": "bp_40x53mm_slug_m169",
@@ -118,7 +118,6 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
-    "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 12 ], [ "ammo_bullet", 115 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -130,7 +129,8 @@
       [ [ "chem_black_powder", 194 ] ],
       [ [ "40x53mm_m169_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ]
-    ]
+    ],
+    "count": 1
   },
   {
     "result": "bp_40x53mm_flechette_m169",
@@ -144,7 +144,6 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
-    "charges": 1,
     "reversible": true,
     "tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
@@ -156,6 +155,7 @@
       [ [ "chem_black_powder", 86 ] ],
       [ [ "40x53mm_m169_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ]
-    ]
+    ],
+    "count": 1
   }
 ]

@@ -26,9 +26,9 @@
     "time": "10 m",
     "batch_time_factors": [ 99, 2 ],
     "autolearn": true,
-    "charges": 468,
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
-    "components": [ [ [ "material_quicklime", 53 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+    "components": [ [ [ "material_quicklime", 53 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ],
+    "count": 468
   },
   {
     "type": "recipe",
@@ -94,13 +94,13 @@
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
     "skills_required": [ "survival", 4 ],
-    "charges": 50,
     "difficulty": 5,
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "CUT", "level": 2 } ],
     "tools": [ [ [ "sheet_metal", -1 ], [ "wood_panel", -1 ] ] ],
-    "components": [ [ [ "splinter", 10 ], [ "stick", 4 ], [ "2x4", 4 ], [ "withered", 20 ] ], [ [ "water", 4 ], [ "water_clean", 4 ] ] ]
+    "components": [ [ [ "splinter", 10 ], [ "stick", 4 ], [ "2x4", 4 ], [ "withered", 20 ] ], [ [ "water", 4 ], [ "water_clean", 4 ] ] ],
+    "count": 50
   },
   {
     "result": "scrap_bronze",
@@ -154,13 +154,13 @@
     "time": "15 m",
     "batch_time_factors": [ 90, 1 ],
     "autolearn": true,
-    "charges": 50,
     "using": [ [ "forging_standard", 1 ] ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
       [ [ "scrap_copper", 1 ], [ "copper_ear", 2 ], [ "cable", 50 ], [ "coin_dime", 25 ], [ "coin_nickel", 10 ] ],
       [ [ "chem_washing_soda", 2 ] ]
-    ]
+    ],
+    "count": 50
   },
   {
     "result": "copper",
@@ -174,7 +174,6 @@
     "time": "15 m",
     "batch_time_factors": [ 90, 1 ],
     "autolearn": true,
-    "charges": 24,
     "using": [ [ "forging_standard", 1 ] ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
@@ -189,7 +188,8 @@
         [ "coin_quarter", 4 ]
       ],
       [ [ "chem_washing_soda", 1 ] ]
-    ]
+    ],
+    "count": 24
   },
   {
     "result": "copper",
@@ -202,7 +202,6 @@
     "time": "15 m",
     "batch_time_factors": [ 90, 1 ],
     "autolearn": true,
-    "charges": 200,
     "using": [ [ "forging_standard", 1 ] ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
@@ -218,7 +217,8 @@
         [ "copper_locket", 50 ]
       ],
       [ [ "chem_washing_soda", 4 ] ]
-    ]
+    ],
+    "count": 200
   },
   {
     "type": "recipe",
@@ -281,11 +281,11 @@
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
     "difficulty": 1,
-    "charges": 1562,
     "time": "5 m",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "FINE_GRIND", "level": 1 } ],
-    "components": [ [ [ "chunk_sulfur", 1 ] ] ]
+    "components": [ [ [ "chunk_sulfur", 1 ] ] ],
+    "count": 1562
   },
   {
     "type": "recipe",
@@ -313,10 +313,10 @@
     "skill_used": "fabrication",
     "difficulty": 3,
     "time": "4 m",
-    "charges": 2000,
     "autolearn": true,
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "GRIND", "level": 1 } ],
-    "components": [ [ [ "zinc_metal", 200 ] ], [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "material_sand", 15 ] ] ]
+    "components": [ [ [ "zinc_metal", 200 ] ], [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "material_sand", 15 ] ] ],
+    "count": 2000
   },
   {
     "type": "recipe",
@@ -356,10 +356,10 @@
     "skill_used": "fabrication",
     "batch_time_factors": [ 70, 1 ],
     "time": "15 s",
-    "charges": 50,
     "autolearn": true,
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
-    "components": [ [ [ "felt_patch", 1 ] ] ]
+    "components": [ [ [ "felt_patch", 1 ] ] ],
+    "count": 50
   },
   {
     "type": "recipe",
@@ -394,7 +394,8 @@
     "autolearn": true,
     "byproducts": [ [ "seed_cotton_boll", 2 ] ],
     "tools": [ [ [ "carding_paddles", -1 ] ] ],
-    "components": [ [ [ "cotton_boll", 1 ] ] ]
+    "components": [ [ [ "cotton_boll", 1 ] ] ],
+    "count": 10
   },
   {
     "type": "recipe",
@@ -409,7 +410,8 @@
     "autolearn": true,
     "byproducts": [ [ "seed_cotton_boll", 2 ] ],
     "tools": [ [ [ "spinwheelitem", -1 ] ] ],
-    "components": [ [ [ "cotton_boll", 1 ] ] ]
+    "components": [ [ [ "cotton_boll", 1 ] ] ],
+    "count": 10
   },
   {
     "type": "recipe",
@@ -451,9 +453,9 @@
     "skill_used": "tailor",
     "time": "5 m",
     "autolearn": true,
-    "charges": 1,
     "components": [ [ [ "thread", 3 ], [ "sinew", 3 ], [ "yarn", 3 ], [ "plant_fibre", 3 ] ] ],
-    "proficiencies": [ { "proficiency": "prof_fibers" } ]
+    "proficiencies": [ { "proficiency": "prof_fibers" } ],
+    "count": 1
   },
   {
     "type": "recipe",
@@ -875,14 +877,14 @@
     "skill_used": "fabrication",
     "autolearn": true,
     "time": "10 m",
-    "charges": 6,
     "batch_time_factors": [ 60, 2 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "CUT", "level": 2 } ],
     "components": [
       [ [ "string_36", 1 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "chem_black_powder", 6 ], [ "gunpowder", 60 ] ]
-    ]
+    ],
+    "count": 6
   },
   {
     "result": "fuse",
@@ -895,9 +897,9 @@
     "difficulty": 1,
     "autolearn": true,
     "time": "4 m",
-    "charges": 3,
     "batch_time_factors": [ 30, 2 ],
-    "components": [ [ [ "rolling_paper", 1 ] ], [ [ "chem_black_powder", 3 ], [ "red_phosphorous", 3 ], [ "gunpowder", 30 ] ] ]
+    "components": [ [ [ "rolling_paper", 1 ] ], [ [ "chem_black_powder", 3 ], [ "red_phosphorous", 3 ], [ "gunpowder", 30 ] ] ],
+    "count": 3
   },
   {
     "result": "wire",
@@ -962,7 +964,6 @@
     "skill_used": "fabrication",
     "difficulty": 3,
     "time": "2 h",
-    "charges": 50,
     "autolearn": true,
     "qualities": [
       { "id": "SAW_W", "level": 1 },
@@ -971,7 +972,8 @@
       { "id": "FILE", "level": 1 }
     ],
     "proficiencies": [ { "proficiency": "prof_carving", "time_multiplier": 1.25, "fail_multiplier": 1.125 } ],
-    "components": [ [ [ "mop", 1 ], [ "stick", 1 ], [ "broom", 1 ] ], [ [ "wax", 1 ], [ "rosin", 1 ] ] ]
+    "components": [ [ [ "mop", 1 ], [ "stick", 1 ], [ "broom", 1 ] ], [ [ "wax", 1 ], [ "rosin", 1 ] ] ],
+    "count": 50
   },
   {
     "type": "recipe",
@@ -982,12 +984,12 @@
     "skill_used": "fabrication",
     "difficulty": 4,
     "time": "1 h 30 m",
-    "charges": 25,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 2 }, [ { "id": "PUNCH", "level": 1 }, { "id": "DRILL", "level": 1 } ] ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "proficiencies": [ { "proficiency": "prof_plasticworking" } ],
-    "components": [ [ [ "plastic_chunk", 1 ] ] ]
+    "components": [ [ [ "plastic_chunk", 1 ] ] ],
+    "count": 25
   },
   {
     "type": "recipe",
@@ -999,13 +1001,13 @@
     "difficulty": 2,
     "time": "30 m",
     "batch_time_factors": [ 85, 2 ],
-    "charges": 5,
     "autolearn": true,
     "using": [ [ "blacksmithing_standard", 1 ] ],
     "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_blacksmithing" } ],
     "qualities": [ { "id": "FILE", "level": 1 } ],
     "tools": [ [ [ "hotcut", -1 ] ], [ [ "nail", -1 ] ] ],
-    "components": [ [ [ "scrap", 1 ] ] ]
+    "components": [ [ [ "scrap", 1 ] ] ],
+    "count": 5
   },
   {
     "type": "recipe",
@@ -1017,14 +1019,14 @@
     "difficulty": 2,
     "time": "30 m",
     "batch_time_factors": [ 50, 2 ],
-    "charges": 20,
     "autolearn": true,
     "using": [ [ "forging_standard", 1 ] ],
     "proficiencies": [ { "proficiency": "prof_metalworking" }, { "proficiency": "prof_redsmithing" } ],
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "FILE", "level": 1 } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "//": "The idea is that you make bas-relief prints including the holes in the clay, pour then break the clay to get the buttons and file them down.",
-    "components": [ [ [ "scrap_bronze", 1 ] ], [ [ "clay_lump", 1 ] ] ]
+    "components": [ [ [ "scrap_bronze", 1 ] ], [ [ "clay_lump", 1 ] ] ],
+    "count": 20
   },
   {
     "result": "cannonball_4lb",
