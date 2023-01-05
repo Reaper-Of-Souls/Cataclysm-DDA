@@ -25,6 +25,7 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "pineapple_juice",
+    "charges": 1,
     "byproducts": [ [ "juice_pulp" ] ],
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
@@ -34,13 +35,13 @@
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "pineapple", 1 ], [ "irradiated_pineapple", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "pineapple", 1 ], [ "irradiated_pineapple", 1 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "grenadine_syrup",
+    "charges": 5,
     "byproducts": [ [ "juice_pulp" ] ],
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
@@ -51,13 +52,13 @@
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "BOIL", "level": 2 } ],
     "tools": [ [ [ "cotton_patchwork", -1 ] ], [ [ "water_boiling_heat", 3, "LIST" ] ] ],
-    "components": [ [ [ "pomegranate", 1 ], [ "irradiated_pomegranate", 1 ] ], [ [ "sugar", 10 ] ] ],
-    "count": 5
+    "components": [ [ [ "pomegranate", 1 ], [ "irradiated_pomegranate", 1 ] ], [ [ "sugar", 10 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "drink_pinitacolada",
+    "charges": 3,
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
     "skill_used": "cooking",
@@ -66,8 +67,7 @@
     "batch_time_factors": [ 50, 4 ],
     "autolearn": true,
     "flags": [ "BLIND_HARD" ],
-    "components": [ [ [ "pineapple_juice", 4 ] ], [ [ "can_coconut", 1 ] ] ],
-    "count": 3
+    "components": [ [ [ "pineapple_juice", 4 ] ], [ [ "can_coconut", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -117,6 +117,7 @@
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "milk_coffee_substitute",
+    "charges": 2,
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
     "skill_used": "cooking",
@@ -126,13 +127,13 @@
     "components": [
       [ [ "coffee_substitute", 1 ] ],
       [ [ "milk_standard", 1, "LIST" ], [ "lf_milk_standard", 1, "LIST" ], [ "milk_powder", 1 ], [ "con_milk", 1 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "milk_coffee_substitute_sweetened",
+    "charges": 2,
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
     "skill_used": "cooking",
@@ -143,8 +144,7 @@
       [ [ "coffee_substitute", 1 ] ],
       [ [ "sugar_standard_half", 1, "LIST" ] ],
       [ [ "milk_standard", 1, "LIST" ], [ "lf_milk_standard", 1, "LIST" ], [ "milk_powder", 1 ], [ "con_milk", 1 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -231,6 +231,7 @@
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "drink_pinacolada",
+    "charges": 3,
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
     "skill_used": "cooking",
@@ -243,13 +244,13 @@
       [ [ "pineapple_juice", 4 ] ],
       [ [ "can_coconut", 1 ] ],
       [ [ "rum", 3 ], [ "vodka", 3 ], [ "tequila", 3 ], [ "whiskey_any", 3, "LIST" ] ]
-    ],
-    "count": 3
+    ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "drink_tequilasunrise",
+    "charges": 3,
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
     "skill_used": "cooking",
@@ -262,8 +263,7 @@
       [ [ "tequila", 1 ], [ "rum", 1 ], [ "vodka", 1 ] ],
       [ [ "oj", 1 ], [ "pineapple_juice", 2 ] ],
       [ [ "grenadine_syrup", 1 ] ]
-    ],
-    "count": 3
+    ]
   },
   {
     "type": "recipe",

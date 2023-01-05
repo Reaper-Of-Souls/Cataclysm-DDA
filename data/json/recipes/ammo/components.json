@@ -22,6 +22,7 @@
     "skill_used": "fabrication",
     "difficulty": 1,
     "time": "15 s",
+    "charges": 10,
     "book_learn": [ [ "pocket_firearms", 3 ], [ "manual_gun", 2 ], [ "recipe_bullets", 1 ], [ "textbook_anarch", 0 ] ],
     "qualities": [ { "id": "FINE_GRIND", "level": 1 } ],
     "tools": [ [ [ "sieve_steel", -1 ] ] ],
@@ -34,8 +35,7 @@
         [ "gunpowder_large_rifle", 10 ],
         [ "gunpowder_artillery", 10 ]
       ]
-    ],
-    "count": 10
+    ]
   },
   {
     "type": "recipe",

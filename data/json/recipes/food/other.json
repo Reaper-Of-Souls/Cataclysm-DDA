@@ -9,11 +9,11 @@
     "difficulty": 3,
     "time": "50 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 1,
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ] ],
-    "components": [ [ [ "beet_syrup", 5 ] ] ],
-    "count": 1
+    "components": [ [ [ "beet_syrup", 5 ] ] ]
   },
   {
     "type": "recipe",
@@ -26,11 +26,11 @@
     "skills_required": [ "survival", 4 ],
     "time": "20 m",
     "batch_time_factors": [ 90, 1 ],
+    "charges": 1,
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "sweet_fruit", 1, "LIST" ] ], [ [ "sugar", 10 ] ] ],
-    "count": 1
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "sweet_fruit", 1, "LIST" ] ], [ [ "sugar", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -44,11 +44,11 @@
     "skills_required": [ "survival", 4 ],
     "time": "20 m",
     "batch_time_factors": [ 90, 1 ],
+    "charges": 1,
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "honey_bottled", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "honey_bottled", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -83,6 +83,7 @@
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "soysauce",
+    "charges": 1,
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
@@ -93,8 +94,7 @@
     "book_learn": [ [ "cookbook_sushi", 3 ] ],
     "qualities": [ { "id": "BOIL", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "soy_sauce_unstrained", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "soy_sauce_unstrained", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -104,8 +104,8 @@
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
     "time": "15 m",
-    "components": [ [ [ "water_clean", 1 ] ], [ [ "freeze_dried_meal", 1 ] ] ],
-    "count": 2
+    "charges": 2,
+    "components": [ [ [ "water_clean", 1 ] ], [ [ "freeze_dried_meal", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -137,10 +137,10 @@
     "difficulty": 2,
     "time": "120 m",
     "batch_time_factors": [ 90, 1 ],
+    "charges": 1,
     "autolearn": true,
     "tools": [ [ "colander_steel" ] ],
-    "components": [ [ [ "gelatin_extracted", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "gelatin_extracted", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -152,11 +152,11 @@
     "difficulty": 1,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 5,
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ] ],
-    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "gelatin_dessert_powder", 1 ] ] ],
-    "count": 5
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "gelatin_dessert_powder", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -168,11 +168,11 @@
     "difficulty": 1,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 5,
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ] ],
-    "components": [ [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "gelatin_powder", 10 ], [ "gelatin_fresh", 1 ] ], [ [ "sugar", 20 ] ] ],
-    "count": 5
+    "components": [ [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "gelatin_powder", 10 ], [ "gelatin_fresh", 1 ] ], [ [ "sugar", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -184,6 +184,7 @@
     "difficulty": 1,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 5,
     "book_learn": [ [ "sweets_book", 1 ], [ "baking_book", 1 ], [ "mag_cooking", 3 ], [ "family_cookbook", 3 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ] ],
@@ -192,8 +193,7 @@
       [ [ "gelatin_powder", 5 ], [ "gelatin_fresh", 1 ] ],
       [ [ "sugar", 20 ] ],
       [ [ "sweet_juice", 1, "LIST" ], [ "soda_pop", 1, "LIST" ] ]
-    ],
-    "count": 5
+    ]
   },
   {
     "type": "recipe",
@@ -205,6 +205,7 @@
     "difficulty": 1,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 5,
     "book_learn": [ [ "sweets_book", 1 ], [ "baking_book", 1 ], [ "mag_cooking", 3 ], [ "family_cookbook", 3 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ] ],
@@ -214,8 +215,7 @@
       [ [ "sugar", 10 ] ],
       [ [ "sweet_juice", 1, "LIST" ], [ "soda_pop", 1, "LIST" ] ],
       [ [ "sweet_fruit", 1, "LIST" ] ]
-    ],
-    "count": 5
+    ]
   },
   {
     "type": "recipe",
@@ -227,6 +227,7 @@
     "difficulty": 1,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 5,
     "book_learn": [ [ "sweets_book", 1 ], [ "baking_book", 1 ], [ "mag_cooking", 1 ], [ "family_cookbook", 1 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ] ],
@@ -235,8 +236,7 @@
       [ [ "chem_agar", 5 ] ],
       [ [ "sugar", 20 ] ],
       [ [ "sweet_juice", 1, "LIST" ], [ "soda_pop", 1, "LIST" ] ]
-    ],
-    "count": 5
+    ]
   },
   {
     "type": "recipe",
@@ -248,6 +248,7 @@
     "difficulty": 1,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 5,
     "book_learn": [ [ "sweets_book", 1 ], [ "baking_book", 1 ], [ "mag_cooking", 1 ], [ "family_cookbook", 1 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ] ],
@@ -257,8 +258,7 @@
       [ [ "sugar", 20 ] ],
       [ [ "sweet_juice", 1, "LIST" ], [ "soda_pop", 1, "LIST" ] ],
       [ [ "sweet_fruit", 1, "LIST" ] ]
-    ],
-    "count": 5
+    ]
   },
   {
     "type": "recipe",
@@ -270,6 +270,7 @@
     "difficulty": 2,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 12,
     "book_learn": [ [ "sweets_book", 2 ], [ "baking_book", 2 ], [ "family_cookbook", 2 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
@@ -279,8 +280,7 @@
       [ [ "gelatin_powder", 25 ], [ "gelatin_fresh", 2 ] ],
       [ [ "sugar", 50 ] ],
       [ [ "sweet_juice", 1, "LIST" ], [ "soda_pop", 1, "LIST" ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -292,6 +292,7 @@
     "difficulty": 2,
     "time": "60 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 12,
     "book_learn": [ [ "sweets_book", 2 ], [ "baking_book", 2 ], [ "family_cookbook", 2 ] ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 16, "LIST" ] ], [ [ "mold_plastic", -1 ] ] ],
@@ -301,8 +302,7 @@
       [ [ "chem_agar", 25 ] ],
       [ [ "sugar", 50 ] ],
       [ [ "sweet_juice", 1, "LIST" ], [ "soda_pop", 1, "LIST" ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -314,6 +314,7 @@
     "difficulty": 2,
     "time": "20 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 1,
     "autolearn": true,
     "tools": [ [ [ "clay_quern", -1 ], [ "rock_quern", -1 ] ] ],
     "components": [
@@ -330,8 +331,7 @@
         [ "beech_nuts", 10 ],
         [ "soybean", 5 ]
       ]
-    ],
-    "count": 1
+    ]
   },
   {
     "type": "recipe",
@@ -343,6 +343,7 @@
     "difficulty": 2,
     "time": "20 m",
     "batch_time_factors": [ 20, 1 ],
+    "charges": 1,
     "autolearn": true,
     "tools": [ [ [ "clay_quern", -1 ], [ "rock_quern", -1 ] ] ],
     "components": [
@@ -355,7 +356,6 @@
         [ "seed_grapes", 50 ],
         [ "seed_weed", 50 ]
       ]
-    ],
-    "count": 1
+    ]
   }
 ]

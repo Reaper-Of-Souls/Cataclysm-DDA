@@ -19,8 +19,7 @@
         [ "denat_alcohol", 250 ],
         [ "methed_alcohol", 250 ]
       ]
-    ],
-    "count": 3
+    ]
   },
   {
     "result": "bandages_makeshift",
@@ -31,9 +30,9 @@
     "skill_used": "tailor",
     "time": "9 s",
     "autolearn": true,
+    "charges": 1,
     "flags": [ "BLIND_EASY" ],
-    "components": [ [ [ "cotton_patchwork", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "cotton_patchwork", 1 ] ] ]
   },
   {
     "result": "bandages_makeshift_bleached",
@@ -200,9 +199,9 @@
     "difficulty": 1,
     "time": "1 m",
     "autolearn": true,
+    "charges": 2,
     "flags": [ "BLIND_EASY" ],
-    "components": [ [ [ "cotton_patchwork", 2 ] ], [ [ "disinfectant", 1 ] ] ],
-    "count": 2
+    "components": [ [ [ "cotton_patchwork", 2 ] ], [ [ "disinfectant", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -214,9 +213,9 @@
     "difficulty": 1,
     "time": "1 m",
     "autolearn": true,
+    "charges": 4,
     "flags": [ "BLIND_EASY" ],
-    "components": [ [ [ "cotton_ball", 4 ] ], [ [ "disinfectant", 1 ] ] ],
-    "count": 4
+    "components": [ [ [ "cotton_ball", 4 ] ], [ [ "disinfectant", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -231,8 +230,7 @@
     "book_learn": [ [ "textbook_firstaid", 3 ], [ "adv_chemistry", 4 ], [ "emergency_book", 4 ] ],
     "qualities": [ { "id": "CHEM", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 18, "LIST" ] ] ],
-    "components": [ [ [ "meal_chitin_piece", 6 ] ], [ [ "lye_powder", 100 ], [ "lye", 3 ] ] ],
-    "count": 6
+    "components": [ [ [ "meal_chitin_piece", 6 ] ], [ [ "lye_powder", 100 ], [ "lye", 3 ] ] ]
   },
   {
     "type": "recipe",
@@ -247,8 +245,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "FINE_GRIND", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 18, "LIST" ] ] ],
-    "components": [ [ [ "alder_bark", 6 ] ], [ [ "water_clean", 10 ] ] ],
-    "count": 6
+    "components": [ [ [ "alder_bark", 6 ] ], [ [ "water_clean", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -306,8 +303,7 @@
     "time": "54 m",
     "autolearn": true,
     "byproducts": [ [ "seed_cotton_boll", 2 ] ],
-    "components": [ [ [ "cotton_boll", 1 ] ] ],
-    "count": 10
+    "components": [ [ [ "cotton_boll", 1 ] ] ]
   },
   {
     "type": "recipe",

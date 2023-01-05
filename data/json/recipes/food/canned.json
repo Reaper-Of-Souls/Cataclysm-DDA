@@ -403,6 +403,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 83, 5 ],
@@ -414,8 +415,7 @@
       [ [ "irradiated_tomato", 4 ], [ "can_tomato", 4 ], [ "tomato", 4 ] ],
       [ [ "irradiated_broccoli", 4 ], [ "broccoli", 4 ] ],
       [ [ "irradiated_zucchini", 4 ], [ "zucchini", 4 ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -430,14 +430,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ] ] ],
     "using": [ [ "mushroom_soup_ingredients", 2 ] ],
-    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 10 ], [ "water_clean", 10 ] ] ],
-    "count": 2
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 10 ], [ "water_clean", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -476,6 +476,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food",
+    "charges": 1,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -485,8 +486,7 @@
     ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "can_sealer", -1 ] ] ],
     "using": [ [ "mushroom_soup_ingredients", 1 ] ],
-    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -501,6 +501,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food_big",
+    "charges": 12,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -510,8 +511,7 @@
     ],
     "tools": [ [ [ "surface_heat", 60, "LIST" ] ], [ [ "can_sealer", -1 ] ] ],
     "using": [ [ "mushroom_soup_ingredients", 12 ] ],
-    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ] ],
-    "count": 12
+    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ] ]
   },
   {
     "type": "recipe",
@@ -526,14 +526,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "mushroom_soup_ingredients", 12 ] ],
-    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 10 ], [ "water_clean", 10 ] ] ],
-    "count": 12
+    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 10 ], [ "water_clean", 10 ] ] ]
   },
   {
     "type": "recipe",
@@ -657,14 +657,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "woods_soup_ingredients", 1 ] ],
-    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ],
-    "count": 2
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ]
   },
   {
     "type": "recipe",
@@ -679,14 +679,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "meat_soup_ingredients", 1 ] ],
-    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ],
-    "count": 2
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ]
   },
   {
     "type": "recipe",
@@ -701,14 +701,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "cookbook", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "veggy_soup_ingredients", 2 ] ],
-    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ],
-    "count": 2
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ]
   },
   {
     "type": "recipe",
@@ -723,14 +723,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "fish_soup_ingredients", 1 ] ],
-    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ],
-    "count": 2
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ]
   },
   {
     "type": "recipe",
@@ -745,14 +745,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "cookbook", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "broth_ingredients", 2 ] ],
-    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ],
-    "count": 2
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ]
   },
   {
     "type": "recipe",
@@ -767,13 +767,13 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "1 h",
+    "charges": 2,
     "book_learn": [ [ "cookbook_eatyrway", 5 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
-    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "bone_edible", 20, "LIST" ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ],
-    "count": 2
+    "components": [ [ [ "jar_glass_sealed", 1 ] ], [ [ "bone_edible", 20, "LIST" ] ], [ [ "water", 11 ], [ "water_clean", 11 ] ] ]
   },
   {
     "type": "recipe",
@@ -813,6 +813,7 @@
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_glass_sealed",
     "time": "30 m",
+    "charges": 16,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -823,8 +824,7 @@
       [ [ "sweet_fruit", 2, "LIST" ] ],
       [ [ "sugar", 20 ] ],
       [ [ "jar_glass_sealed", 1 ] ]
-    ],
-    "count": 16
+    ]
   },
   {
     "type": "recipe",
@@ -838,6 +838,7 @@
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_glass_sealed",
     "time": "30 m",
+    "charges": 96,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -848,8 +849,7 @@
       [ [ "sweet_fruit", 12, "LIST" ] ],
       [ [ "sugar", 120 ] ],
       [ [ "jar_3l_glass_sealed", 1 ] ]
-    ],
-    "count": 96
+    ]
   },
   {
     "type": "recipe",
@@ -887,6 +887,7 @@
     "skill_used": "cooking",
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "cookbook", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 83, 5 ],
@@ -896,8 +897,7 @@
       [ [ "water", 11 ], [ "water_clean", 11 ] ],
       [ [ "jar_glass_sealed", 1 ] ],
       [ [ "beans_cooked", 2 ], [ "dry_beans", 2 ], [ "raw_beans", 2 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -1230,6 +1230,7 @@
     "time": "20 m",
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
+    "charges": 2,
     "contained": true,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
@@ -1245,8 +1246,7 @@
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "sweet_fruit", 2, "LIST" ] ],
       [ [ "sugar_standard", 1, "LIST" ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -1260,6 +1260,7 @@
     "time": "24 m",
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
+    "charges": 4,
     "container": "can_medium",
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
@@ -1275,8 +1276,7 @@
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "sweet_fruit", 4, "LIST" ] ],
       [ [ "sugar_standard", 2, "LIST" ] ]
-    ],
-    "count": 4
+    ]
   },
   {
     "type": "recipe",
@@ -1290,6 +1290,7 @@
     "time": "48 m",
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
+    "charges": 24,
     "container": "can_food_big",
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
@@ -1305,8 +1306,7 @@
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "sweet_fruit", 24, "LIST" ] ],
       [ [ "sugar_standard", 12, "LIST" ] ]
-    ],
-    "count": 24
+    ]
   },
   {
     "type": "recipe",
@@ -1321,6 +1321,7 @@
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "contained": true,
     "batch_time_factors": [ 83, 5 ],
+    "charges": 2,
     "qualities": [
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -1333,8 +1334,7 @@
       [ [ "scrap", 1 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "tomato", 2 ], [ "irradiated_tomato", 2 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -1350,6 +1350,7 @@
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_medium",
     "batch_time_factors": [ 83, 5 ],
+    "charges": 4,
     "qualities": [
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -1362,8 +1363,7 @@
       [ [ "scrap", 1 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "tomato", 4 ], [ "irradiated_tomato", 4 ] ]
-    ],
-    "count": 4
+    ]
   },
   {
     "type": "recipe",
@@ -1379,6 +1379,7 @@
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food_big",
     "batch_time_factors": [ 83, 5 ],
+    "charges": 24,
     "qualities": [
       { "id": "SAW_M", "level": 1 },
       { "id": "HAMMER", "level": 1 },
@@ -1391,8 +1392,7 @@
       [ [ "scrap", 6 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "tomato", 24 ], [ "irradiated_tomato", 24 ] ]
-    ],
-    "count": 24
+    ]
   },
   {
     "type": "recipe",
@@ -1419,8 +1419,7 @@
       [ [ "scrap", 1 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "beans_cooked", 2 ], [ "dry_beans", 2 ], [ "raw_beans", 2 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -1449,8 +1448,7 @@
       [ [ "scrap", 6 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "beans_cooked", 12 ], [ "dry_beans", 12 ], [ "raw_beans", 12 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -1793,14 +1791,14 @@
     "book_learn": [ [ "cookbook_italian", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 83, 5 ],
+    "charges": 24,
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "components": [
       [ [ "water", 16 ], [ "water_clean", 16 ] ],
       [ [ "jar_3l_glass_sealed", 1 ] ],
       [ [ "tomato", 24 ], [ "irradiated_tomato", 24 ] ]
-    ],
-    "count": 24
+    ]
   },
   {
     "type": "recipe",
@@ -1817,14 +1815,14 @@
     "book_learn": [ [ "cookbook", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 83, 5 ],
+    "charges": 12,
     "qualities": [ { "id": "CUT", "level": 2 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "components": [
       [ [ "water", 16 ], [ "water_clean", 16 ] ],
       [ [ "jar_3l_glass_sealed", 1 ] ],
       [ [ "beans_cooked", 12 ], [ "dry_beans", 12 ], [ "raw_beans", 12 ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -1839,14 +1837,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "woods_soup_ingredients", 6 ] ],
-    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ],
-    "count": 12
+    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ]
   },
   {
     "type": "recipe",
@@ -1861,14 +1859,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "meat_soup_ingredients", 6 ] ],
-    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ],
-    "count": 12
+    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ]
   },
   {
     "type": "recipe",
@@ -1883,14 +1881,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "cookbook", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "veggy_soup_ingredients", 12 ] ],
-    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ],
-    "count": 12
+    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ]
   },
   {
     "type": "recipe",
@@ -1905,14 +1903,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "fish_soup_ingredients", 6 ] ],
-    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ],
-    "count": 12
+    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 16 ], [ "water_clean", 16 ] ] ]
   },
   {
     "type": "recipe",
@@ -1927,14 +1925,14 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "cookbook", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "using": [ [ "broth_ingredients", 12 ] ],
-    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 28 ], [ "water_clean", 28 ] ] ],
-    "count": 12
+    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 28 ], [ "water_clean", 28 ] ] ]
   },
   {
     "type": "recipe",
@@ -1949,13 +1947,13 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "1 h 10 m",
+    "charges": 12,
     "book_learn": [ [ "cookbook_eatyrway", 5 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
-    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 28 ], [ "water_clean", 28 ] ], [ [ "bone_edible", 120, "LIST" ] ] ],
-    "count": 12
+    "components": [ [ [ "jar_3l_glass_sealed", 1 ] ], [ [ "water", 28 ], [ "water_clean", 28 ] ], [ [ "bone_edible", 120, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -1969,6 +1967,7 @@
     "skill_used": "cooking",
     "difficulty": 4,
     "time": "2 h",
+    "charges": 48,
     "book_learn": [ [ "cookbook_italian", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -1978,8 +1977,7 @@
       [ [ "jar_3l_glass_sealed", 1 ] ],
       [ [ "water", 40 ], [ "water_clean", 40 ] ],
       [ [ "can_tomato", 24 ], [ "tomato", 24 ], [ "irradiated_tomato", 24 ] ]
-    ],
-    "count": 48
+    ]
   },
   {
     "type": "recipe",
@@ -1993,6 +1991,7 @@
     "skill_used": "cooking",
     "difficulty": 4,
     "time": "40 m",
+    "charges": 8,
     "book_learn": [ [ "cookbook_italian", 4 ], [ "manual_canning", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2002,8 +2001,7 @@
       [ [ "jar_glass_sealed", 1 ] ],
       [ [ "can_tomato", 4 ], [ "tomato", 4 ], [ "irradiated_tomato", 4 ] ],
       [ [ "water", 15 ], [ "water_clean", 15 ] ]
-    ],
-    "count": 8
+    ]
   },
   {
     "type": "recipe",
@@ -2046,6 +2044,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food",
+    "charges": 4,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2059,8 +2058,7 @@
       [ [ "scrap", 1 ] ],
       [ [ "can_tomato", 2 ], [ "tomato", 2 ], [ "irradiated_tomato", 2 ] ],
       [ [ "water", 3 ], [ "water_clean", 3 ] ]
-    ],
-    "count": 4
+    ]
   },
   {
     "type": "recipe",
@@ -2075,6 +2073,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food_big",
+    "charges": 48,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2088,8 +2087,7 @@
       [ [ "scrap", 6 ] ],
       [ [ "can_tomato", 24 ], [ "tomato", 24 ], [ "irradiated_tomato", 24 ] ],
       [ [ "water", 25 ], [ "water_clean", 25 ] ]
-    ],
-    "count": 48
+    ]
   },
   {
     "type": "recipe",
@@ -2098,6 +2096,7 @@
     "id_suffix": "jarred",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_glass_sealed",
+    "charges": 2,
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
     "skill_used": "cooking",
@@ -2114,8 +2113,7 @@
       [ [ "water", 13 ], [ "water_clean", 13 ] ],
       [ [ "sweet_fruit_like", 1, "LIST" ] ],
       [ [ "sugar", 5 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -2130,6 +2128,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 3,
     "time": "2 h",
+    "charges": 120,
     "book_learn": [
       [ "cookbook_italian", 3 ],
       [ "family_cookbook", 3 ],
@@ -2146,8 +2145,7 @@
       [ [ "water", 16 ], [ "water_clean", 16 ] ],
       [ [ "milk_standard_raw_fresh", 24, "LIST" ] ],
       [ [ "sugar_standard", 36, "LIST" ] ]
-    ],
-    "count": 120
+    ]
   },
   {
     "type": "recipe",
@@ -2162,6 +2160,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 3,
     "time": "45 m",
+    "charges": 20,
     "book_learn": [
       [ "cookbook_italian", 3 ],
       [ "family_cookbook", 3 ],
@@ -2178,8 +2177,7 @@
       [ [ "water", 11 ], [ "water_clean", 11 ] ],
       [ [ "milk_standard_raw_fresh", 4, "LIST" ] ],
       [ [ "sugar_standard", 6, "LIST" ] ]
-    ],
-    "count": 20
+    ]
   },
   {
     "type": "recipe",
@@ -2236,6 +2234,7 @@
     ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food",
+    "charges": 10,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2249,8 +2248,7 @@
       [ [ "scrap", 1 ] ],
       [ [ "milk_standard_raw_fresh", 2, "LIST" ] ],
       [ [ "sugar_standard", 3, "LIST" ] ]
-    ],
-    "count": 10
+    ]
   },
   {
     "type": "recipe",
@@ -2272,6 +2270,7 @@
     ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food_big",
+    "charges": 120,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2285,8 +2284,7 @@
       [ [ "scrap", 6 ] ],
       [ [ "milk_standard_raw_fresh", 24, "LIST" ] ],
       [ [ "sugar_standard", 36, "LIST" ] ]
-    ],
-    "count": 120
+    ]
   },
   {
     "type": "recipe",
@@ -2325,6 +2323,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food",
+    "charges": 1,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2334,8 +2333,7 @@
     ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "can_sealer", -1 ] ] ],
     "using": [ [ "broth_ingredients", 1 ] ],
-    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ] ],
-    "count": 1
+    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -2350,6 +2348,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food_big",
+    "charges": 12,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2359,8 +2358,7 @@
     ],
     "tools": [ [ [ "surface_heat", 60, "LIST" ] ], [ [ "can_sealer", -1 ] ] ],
     "using": [ [ "broth_ingredients", 12 ] ],
-    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ], [ [ "water", 13 ], [ "water_clean", 13 ] ] ],
-    "count": 12
+    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ], [ [ "water", 13 ], [ "water_clean", 13 ] ] ]
   },
   {
     "type": "recipe",
@@ -2405,6 +2403,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food",
+    "charges": 1,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2418,8 +2417,7 @@
       [ [ "scrap", 1 ] ],
       [ [ "bone_edible", 10, "LIST" ] ],
       [ [ "water", 2 ], [ "water_clean", 2 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "type": "recipe",
@@ -2435,6 +2433,7 @@
     "book_learn": [ [ "manual_sealing", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "container": "can_food_big",
+    "charges": 12,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [
       { "id": "SAW_M", "level": 1 },
@@ -2448,8 +2447,7 @@
       [ [ "scrap", 6 ] ],
       [ [ "bone_edible", 120, "LIST" ] ],
       [ [ "water", 13 ], [ "water_clean", 13 ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -2463,6 +2461,7 @@
     "skill_used": "cooking",
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
+    "charges": 2,
     "time": "30 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2477,8 +2476,7 @@
       [ [ "jar_glass_sealed", 1 ] ],
       [ [ "irradiated_apple", 4 ], [ "apple", 4 ] ],
       [ [ "water", 11 ], [ "water_clean", 11 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -2491,6 +2489,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 2,
     "time": "24 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2498,8 +2497,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_apple", 4 ], [ "apple", 4 ] ] ],
-    "count": 2
+    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_apple", 4 ], [ "apple", 4 ] ] ]
   },
   {
     "type": "recipe",
@@ -2512,6 +2510,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 1,
     "time": "20 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2519,8 +2518,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_apple", 2 ], [ "apple", 2 ] ] ],
-    "count": 1
+    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_apple", 2 ], [ "apple", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -2533,6 +2531,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 12,
     "time": "48 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2540,8 +2539,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 60, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ], [ [ "irradiated_apple", 24 ], [ "apple", 24 ] ] ],
-    "count": 12
+    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ], [ [ "irradiated_apple", 24 ], [ "apple", 24 ] ] ]
   },
   {
     "type": "recipe",
@@ -2556,6 +2554,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2569,8 +2568,7 @@
       [ [ "jar_3l_glass_sealed", 1 ] ],
       [ [ "irradiated_apple", 24 ], [ "apple", 24 ] ],
       [ [ "water", 16 ], [ "water_clean", 16 ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -2585,6 +2583,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2598,8 +2597,7 @@
       [ [ "jar_glass_sealed", 1 ] ],
       [ [ "irradiated_orange", 4 ], [ "orange", 4 ] ],
       [ [ "water", 11 ], [ "water_clean", 11 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -2612,6 +2610,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 2,
     "time": "24 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2619,8 +2618,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_orange", 4 ], [ "orange", 4 ] ] ],
-    "count": 2
+    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_orange", 4 ], [ "orange", 4 ] ] ]
   },
   {
     "type": "recipe",
@@ -2633,6 +2631,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 1,
     "time": "20 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2640,8 +2639,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_orange", 2 ], [ "orange", 2 ] ] ],
-    "count": 1
+    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_orange", 2 ], [ "orange", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -2654,6 +2652,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 12,
     "time": "20 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2661,8 +2660,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 60, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_orange", 24 ], [ "orange", 24 ] ] ],
-    "count": 12
+    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_orange", 24 ], [ "orange", 24 ] ] ]
   },
   {
     "type": "recipe",
@@ -2677,6 +2675,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2690,8 +2689,7 @@
       [ [ "jar_3l_glass_sealed", 1 ] ],
       [ [ "irradiated_orange", 24 ], [ "orange", 24 ] ],
       [ [ "water", 16 ], [ "water_clean", 16 ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -2706,6 +2704,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 2,
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2719,8 +2718,7 @@
       [ [ "jar_glass_sealed", 1 ] ],
       [ [ "irradiated_cranberries", 6 ], [ "cranberries", 6 ] ],
       [ [ "water", 11 ], [ "water_clean", 11 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "type": "recipe",
@@ -2733,6 +2731,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 2,
     "time": "24 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2740,8 +2739,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_cranberries", 6 ], [ "cranberries", 6 ] ] ],
-    "count": 2
+    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_cranberries", 6 ], [ "cranberries", 6 ] ] ]
   },
   {
     "type": "recipe",
@@ -2754,6 +2752,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 1,
     "time": "20 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2761,8 +2760,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_cranberries", 3 ], [ "cranberries", 3 ] ] ],
-    "count": 1
+    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_cranberries", 3 ], [ "cranberries", 3 ] ] ]
   },
   {
     "type": "recipe",
@@ -2775,6 +2773,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 12,
     "time": "48 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2782,8 +2781,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_cranberries", 36 ], [ "cranberries", 36 ] ] ],
-    "count": 12
+    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 1 ] ], [ [ "irradiated_cranberries", 36 ], [ "cranberries", 36 ] ] ]
   },
   {
     "type": "recipe",
@@ -2798,6 +2796,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 12,
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2811,8 +2810,7 @@
       [ [ "jar_3l_glass_sealed", 1 ] ],
       [ [ "irradiated_cranberries", 36 ], [ "cranberries", 36 ] ],
       [ [ "water", 16 ], [ "water_clean", 16 ] ]
-    ],
-    "count": 12
+    ]
   },
   {
     "type": "recipe",
@@ -2827,6 +2825,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "30 m",
+    "charges": 4,
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2841,8 +2840,7 @@
       [ [ "sweet_fruit", 2, "LIST" ] ],
       [ [ "water", 11 ], [ "water_clean", 11 ] ],
       [ [ "water_clean", 2 ] ]
-    ],
-    "count": 4
+    ]
   },
   {
     "type": "recipe",
@@ -2855,6 +2853,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 4,
     "time": "24 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2862,8 +2861,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "sweet_fruit", 2, "LIST" ] ], [ [ "water_clean", 3 ] ] ],
-    "count": 4
+    "components": [ [ [ "can_medium", 1 ] ], [ [ "scrap", 1 ] ], [ [ "sweet_fruit", 2, "LIST" ] ], [ [ "water_clean", 3 ] ] ]
   },
   {
     "type": "recipe",
@@ -2876,6 +2874,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 2,
     "time": "20 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2883,8 +2882,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "sweet_fruit", 1, "LIST" ] ], [ [ "water_clean", 2 ] ] ],
-    "count": 2
+    "components": [ [ [ "can_food", 1 ] ], [ [ "scrap", 1 ] ], [ [ "sweet_fruit", 1, "LIST" ] ], [ [ "water_clean", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -2897,6 +2895,7 @@
     "subcategory": "CSC_FOOD_VEGGI",
     "skill_used": "cooking",
     "difficulty": 4,
+    "charges": 24,
     "time": "48 m",
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
@@ -2904,8 +2903,7 @@
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 60, "LIST" ] ], [ [ "can_sealer", -1 ] ], [ [ "cotton_patchwork", -1 ] ] ],
-    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ], [ [ "sweet_fruit", 12, "LIST" ] ], [ [ "water_clean", 13 ] ] ],
-    "count": 24
+    "components": [ [ [ "can_food_big", 1 ] ], [ [ "scrap", 6 ] ], [ [ "sweet_fruit", 12, "LIST" ] ], [ [ "water_clean", 13 ] ] ]
   },
   {
     "type": "recipe",
@@ -2920,6 +2918,7 @@
     "skills_required": [ "mechanics", 1 ],
     "difficulty": 4,
     "time": "40 m",
+    "charges": 24,
     "book_learn": [ [ "preserving_juice", 2 ] ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_preservation" }, { "proficiency": "prof_food_canning" } ],
     "batch_time_factors": [ 80, 4 ],
@@ -2934,8 +2933,7 @@
       [ [ "sweet_fruit", 12, "LIST" ] ],
       [ [ "water", 16 ], [ "water_clean", 16 ] ],
       [ [ "water_clean", 12 ] ]
-    ],
-    "count": 24
+    ]
   },
   {
     "type": "recipe",
@@ -2953,12 +2951,12 @@
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "book_learn": [ [ "cookbook", 6 ], [ "manual_canning", 4 ] ],
     "container": "jar_glass_sealed",
+    "charges": 8,
     "components": [
       [ [ "water", 11 ], [ "water_clean", 11 ] ],
       [ [ "jar_glass_sealed", 1 ] ],
       [ [ "liver", 8 ], [ "human_liver", 8 ], [ "demihuman_liver", 8 ] ]
-    ],
-    "count": 8
+    ]
   },
   {
     "type": "recipe",
@@ -2976,12 +2974,12 @@
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ], [ "pot_canning_clay", -1 ] ] ],
     "book_learn": [ [ "cookbook", 6 ], [ "manual_canning", 4 ] ],
     "container": "jar_3l_glass_sealed",
+    "charges": 48,
     "components": [
       [ [ "water", 16 ], [ "water_clean", 16 ] ],
       [ [ "jar_3l_glass_sealed", 1 ] ],
       [ [ "liver", 48 ], [ "human_liver", 48 ], [ "demihuman_liver", 48 ] ]
-    ],
-    "count": 48
+    ]
   },
   {
     "type": "recipe",
@@ -3009,7 +3007,7 @@
       [ [ "liver", 4 ], [ "human_liver", 4 ], [ "demihuman_liver", 4 ] ]
     ],
     "book_learn": [ [ "cookbook", 6 ], [ "manual_canning", 4 ] ],
-    "count": 4
+    "charges": 4
   },
   {
     "type": "recipe",
@@ -3038,7 +3036,7 @@
       [ [ "liver", 8 ], [ "human_liver", 8 ], [ "demihuman_liver", 8 ] ]
     ],
     "book_learn": [ [ "cookbook", 6 ], [ "manual_canning", 4 ] ],
-    "count": 8
+    "charges": 8
   },
   {
     "type": "recipe",
@@ -3067,6 +3065,6 @@
       [ [ "liver", 48 ], [ "human_liver", 48 ], [ "demihuman_liver", 48 ] ]
     ],
     "book_learn": [ [ "cookbook", 6 ], [ "manual_canning", 4 ] ],
-    "count": 48
+    "charges": 48
   }
 ]

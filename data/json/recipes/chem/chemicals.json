@@ -11,10 +11,10 @@
     "time": "4 h",
     "batch_time_factors": [ 99, 2 ],
     "autolearn": true,
+    "charges": 1,
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ], [ [ "cotton_patchwork", -1 ], [ "felt_patch", -1 ] ] ],
-    "components": [ [ [ "feces_bird", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "feces_bird", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -29,6 +29,7 @@
     "time": "1 h",
     "batch_time_factors": [ 80, 2 ],
     "autolearn": true,
+    "charges": 75,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "CUT", "level": 2 }, { "id": "FINE_DISTILL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "thermometer", -1 ] ] ],
     "components": [
@@ -37,12 +38,12 @@
       [ [ "chem_sulphuric_acid", 1 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ],
       [ [ "chem_glycerol", 20 ] ]
-    ],
-    "count": 75
+    ]
   },
   {
     "type": "recipe",
     "result": "chem_acetone",
+    "charges": 2,
     "activity_level": "NO_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
@@ -56,8 +57,7 @@
     "components": [
       [ [ "chem_acetic_acid", 3 ] ],
       [ [ "material_limestone", 54 ], [ "material_quicklime", 24 ], [ "chem_slaked_lime", 240 ] ]
-    ],
-    "count": 2
+    ]
   },
   {
     "result": "chem_toluene",
@@ -70,14 +70,15 @@
     "time": "20 m",
     "batch_time_factors": [ 99, 1 ],
     "book_learn": [ [ "adv_chemistry", 4 ] ],
+    "charges": 105,
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "chem_citric_acid", -1 ] ] ],
-    "components": [ [ [ "chem_benzene", 90 ] ], [ [ "chem_methanol", 32 ] ] ],
-    "count": 105
+    "components": [ [ [ "chem_benzene", 90 ] ], [ [ "chem_methanol", 32 ] ] ]
   },
   {
     "type": "recipe",
     "result": "chem_chloroform",
+    "charges": 276,
     "activity_level": "NO_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
@@ -87,12 +88,12 @@
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "adv_chemistry", 4 ], [ "textbook_chemistry", 5 ], [ "recipe_labchem", 4 ], [ "atomic_survival", 4 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "SEPARATE", "level": 1 } ],
-    "components": [ [ [ "chem_acetone", 1 ] ], [ [ "bleach", 6 ] ] ],
-    "count": 276
+    "components": [ [ [ "chem_acetone", 1 ] ], [ [ "bleach", 6 ] ] ]
   },
   {
     "type": "recipe",
     "result": "chem_citric_acid",
+    "charges": 18,
     "byproducts": [ [ "juice_pulp", 8 ] ],
     "activity_level": "NO_EXERCISE",
     "category": "CC_CHEM",
@@ -123,8 +124,7 @@
       [ [ "paper", 10 ] ],
       [ [ "chem_calcium_chloride", 14 ] ],
       [ [ "water_clean", 16 ] ]
-    ],
-    "count": 18
+    ]
   },
   {
     "type": "recipe",
@@ -136,14 +136,15 @@
     "difficulty": 5,
     "time": "1 h",
     "book_learn": [ [ "adv_chemistry", 4 ] ],
+    "charges": 49,
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "tools": [ [ [ "electrolysis_kit", 50 ] ] ],
-    "components": [ [ [ "scrap", 1 ] ], [ [ "salt_water", 4 ] ] ],
-    "count": 49
+    "components": [ [ [ "scrap", 1 ] ], [ [ "salt_water", 4 ] ] ]
   },
   {
     "type": "recipe",
     "result": "chem_calcium_chloride",
+    "charges": 51,
     "activity_level": "NO_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
@@ -153,14 +154,14 @@
     "batch_time_factors": [ 80, 2 ],
     "book_learn": [ [ "adv_chemistry", 4 ], [ "textbook_chemistry", 5 ], [ "recipe_labchem", 4 ], [ "atomic_survival", 4 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
-    "components": [ [ [ "chem_muriatic_acid", 1 ] ], [ [ "material_limestone", 45 ], [ "material_quicklime", 24 ] ] ],
-    "count": 51
+    "components": [ [ [ "chem_muriatic_acid", 1 ] ], [ [ "material_limestone", 45 ], [ "material_quicklime", 24 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "chem_washing_soda",
     "byproducts": [ [ "ammonia_liquid", 4 ], [ "chem_calcium_chloride", 51 ] ],
+    "charges": 41,
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
     "skill_used": "chemistry",
@@ -170,14 +171,14 @@
     "book_learn": [ [ "adv_chemistry", 5 ], [ "textbook_chemistry", 6 ], [ "recipe_labchem", 5 ], [ "atomic_survival", 5 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
-    "components": [ [ [ "salt_water", 3 ] ], [ [ "material_limestone", 8 ] ], [ [ "ammonia_liquid", 4 ] ] ],
-    "count": 41
+    "components": [ [ [ "salt_water", 3 ] ], [ [ "material_limestone", 8 ] ], [ [ "ammonia_liquid", 4 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "chem_washing_soda",
     "id_suffix": "from_baking_soda",
+    "charges": 41,
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
     "skill_used": "chemistry",
@@ -187,14 +188,14 @@
     "book_learn": [ [ "adv_chemistry", 4 ], [ "textbook_chemistry", 5 ], [ "recipe_labchem", 4 ], [ "atomic_survival", 4 ] ],
     "qualities": [ { "id": "BOIL", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
-    "components": [ [ [ "chem_baking_soda", 76 ] ] ],
-    "count": 41
+    "components": [ [ [ "chem_baking_soda", 76 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "chem_baking_soda",
     "byproducts": [ [ "material_quicklime", 8 ] ],
+    "charges": 76,
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
     "skill_used": "chemistry",
@@ -208,13 +209,13 @@
       [ [ "forge", 25 ], [ "oxy_torch", 5 ] ],
       [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
     ],
-    "components": [ [ [ "chem_washing_soda", 41 ] ], [ [ "material_limestone", 8 ] ], [ [ "water_clean", 1 ] ] ],
-    "count": 76
+    "components": [ [ [ "chem_washing_soda", 41 ] ], [ [ "material_limestone", 8 ] ], [ [ "water_clean", 1 ] ] ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "acetic_anhydride",
+    "charges": 2,
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
     "skill_used": "chemistry",
@@ -224,8 +225,7 @@
     "book_learn": [ [ "adv_chemistry", 5 ], [ "textbook_chemistry", 6 ], [ "recipe_labchem", 5 ], [ "atomic_survival", 5 ] ],
     "qualities": [ { "id": "CHEM", "level": 2 }, { "id": "FINE_DISTILL", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ], [ [ "ketene_lamp", 50 ] ] ],
-    "components": [ [ [ "chem_acetic_acid", 1 ] ], [ [ "chem_acetone", 1 ] ] ],
-    "count": 2
+    "components": [ [ [ "chem_acetic_acid", 1 ] ], [ [ "chem_acetone", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -238,10 +238,10 @@
     "time": "1 h",
     "batch_time_factors": [ 99, 2 ],
     "book_learn": [ [ "adv_chemistry", 7 ], [ "recipe_labchem", 7 ] ],
+    "charges": 958,
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "mercury", 22 ] ], [ [ "chem_nitric_acid", 1 ] ], [ [ "chem_ethanol", 206 ] ] ],
-    "count": 958
+    "components": [ [ [ "mercury", 22 ] ], [ [ "chem_nitric_acid", 1 ] ], [ [ "chem_ethanol", 206 ] ] ]
   },
   {
     "type": "recipe",
@@ -254,6 +254,7 @@
     "time": "90 m",
     "batch_time_factors": [ 99, 2 ],
     "book_learn": [ [ "adv_chemistry", 7 ], [ "recipe_labchem", 7 ] ],
+    "charges": 1168,
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 30, "LIST" ] ] ],
     "components": [
@@ -262,13 +263,13 @@
       [ [ "chem_ammonium_nitrate", 238 ] ],
       [ [ "lead", 103 ] ],
       [ [ "chem_nitric_acid", 1 ] ]
-    ],
-    "count": 1168
+    ]
   },
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
     "result": "ammonia_liquid",
+    "charges": 2,
     "byproducts": [ [ "salt_water", 1 ] ],
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
@@ -282,7 +283,6 @@
       [ [ "ammonia_machine_pipework", 5000 ] ],
       [ [ "nitrogen_generator", 150 ] ]
     ],
-    "components": [ [ [ "salt", 10 ] ], [ [ "water_clean", 2 ] ] ],
-    "count": 2
+    "components": [ [ [ "salt", 10 ] ], [ [ "water_clean", 2 ] ] ]
   }
 ]

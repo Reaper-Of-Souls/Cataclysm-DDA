@@ -226,8 +226,7 @@
     "batch_time_factors": [ 83, 3 ],
     "flags": [ "BLIND_EASY" ],
     "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
-    "components": [ [ [ "chitin_piece", 1 ], [ "acidchitin_piece", 1 ], [ "endochitin", 1 ], [ "insect_dust", 1 ] ] ],
-    "count": 4
+    "components": [ [ [ "chitin_piece", 1 ], [ "acidchitin_piece", 1 ], [ "endochitin", 1 ], [ "insect_dust", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -244,8 +243,7 @@
     "batch_time_factors": [ 83, 3 ],
     "flags": [ "BLIND_EASY" ],
     "qualities": [ { "id": "FINE_GRIND", "level": 1 } ],
-    "components": [ [ [ "chitin_piece", 1 ], [ "acidchitin_piece", 1 ], [ "endochitin", 1 ], [ "insect_dust", 1 ] ] ],
-    "count": 4
+    "components": [ [ [ "chitin_piece", 1 ], [ "acidchitin_piece", 1 ], [ "endochitin", 1 ], [ "insect_dust", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -644,9 +642,9 @@
     "skill_used": "fabrication",
     "time": "1 m",
     "autolearn": true,
+    "charges": 6,
     "flags": [ "BLIND_HARD" ],
-    "components": [ [ [ "paper", 1 ] ] ],
-    "count": 6
+    "components": [ [ [ "paper", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -2298,7 +2296,7 @@
     "autolearn": true,
     "tools": [ [ [ "scutcheritem", -1 ] ] ],
     "components": [ [ [ "dogbane", 8 ], [ "cattail_stalk", 8 ], [ "stick_fiber", 1 ], [ "cottonwood_tree_boll", 8 ] ] ],
-    "count": 80
+    "charges": 80
   },
   {
     "type": "recipe",

@@ -150,10 +150,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "peanut", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "peanut", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -166,10 +166,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "hickory_nut", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "hickory_nut", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -182,10 +182,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "walnut", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "walnut", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -198,10 +198,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "hazelnut", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "hazelnut", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -214,10 +214,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "hazelnut", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "hazelnut", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -230,10 +230,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "chestnut", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "chestnut", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -246,10 +246,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "hazelnut", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "hazelnut", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -262,10 +262,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "pecan", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "pecan", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -278,10 +278,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "almond", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "almond", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -294,10 +294,10 @@
     "time": "10 m",
     "batch_time_factors": [ 20, 1 ],
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "ANVIL", "level": 1 } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "pistachio", 20 ] ] ],
-    "count": 20
+    "components": [ [ [ "pistachio", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -310,11 +310,11 @@
     "difficulty": 3,
     "time": "30 m",
     "autolearn": true,
+    "charges": 20,
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "proficiencies": [ { "proficiency": "prof_food_prep" }, { "proficiency": "prof_forage_cooking" } ],
     "tools": [ [ [ "bag_canvas", -1 ], [ "pillowcase", -1 ], [ "sheet", -1 ] ] ],
-    "components": [ [ [ "acorns", 20 ] ], [ [ "water", 40 ], [ "water_clean", 40 ] ] ],
-    "count": 20
+    "components": [ [ [ "acorns", 20 ] ], [ [ "water", 40 ], [ "water_clean", 40 ] ] ]
   },
   {
     "type": "recipe",

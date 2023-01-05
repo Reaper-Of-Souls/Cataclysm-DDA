@@ -26,7 +26,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_cutting",
     "components": [ [ [ "pumpkin", 1 ] ] ],
-    "count": 12
+    "charges": 12
   },
   {
     "result": "seed_cucumber",
@@ -39,7 +39,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "oats", 1 ] ] ],
-    "count": 8
+    "charges": 8
   },
   {
     "result": "seed_cattail",
@@ -52,7 +52,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_cutting",
     "components": [ [ [ "corn", 1 ] ] ],
-    "count": 12
+    "charges": 12
   },
   {
     "result": "seed_zucchini",
@@ -65,7 +65,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "barley", 1 ] ] ],
-    "count": 8
+    "charges": 8
   },
   {
     "result": "seed_tomato",
@@ -144,7 +144,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_cutting",
     "components": [ [ [ "grapes", 1 ] ] ],
-    "count": 12
+    "charges": 12
   },
   {
     "result": "seed_rose",
@@ -163,7 +163,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "wheat", 1 ] ] ],
-    "count": 8
+    "charges": 8
   },
   {
     "result": "seed_bee_balm",
@@ -176,7 +176,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "buckwheat", 1 ] ] ],
-    "count": 8
+    "charges": 8
   },
   {
     "result": "seed_dogbane",
@@ -189,7 +189,7 @@
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "garlic", 1 ] ] ],
-    "count": 8
+    "charges": 8
   },
   {
     "result": "seed_mugwort",
@@ -306,21 +306,21 @@
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "sunflower", 1 ] ] ],
-    "count": 16
+    "charges": 16
   },
   {
     "result": "seed_beans",
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "raw_beans", 1 ] ] ],
-    "count": 12
+    "charges": 12
   },
   {
     "result": "seed_lentils",
     "type": "recipe",
     "copy-from": "seed_extraction_base",
     "components": [ [ [ "raw_lentils", 1 ] ] ],
-    "count": 12
+    "charges": 12
   },
   {
     "result": "seed_chamomile",

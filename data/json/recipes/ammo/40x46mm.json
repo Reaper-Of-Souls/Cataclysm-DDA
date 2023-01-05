@@ -11,6 +11,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "//": "186 mg gunpowder rounded to 2 100 mg 'pieces', same as factory M576 load.",
     "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 8 ] ],
@@ -23,8 +24,7 @@
       [ [ "gunpowder_shotgun", 2 ] ],
       [ [ "40x46mm_m118_casing", 1 ] ],
       [ [ "smpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "40x46mm_buckshot_m199",
@@ -38,6 +38,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 8 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -50,8 +51,7 @@
       [ [ "gunpowder_shotgun", 2 ] ],
       [ [ "40x46mm_m199_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "40x46mm_hornets_nest_22lr",
@@ -64,9 +64,9 @@
     "skills_required": [ "launcher", 1 ],
     "autolearn": true,
     "time": "2 m",
+    "charges": 1,
     "reversible": true,
-    "components": [ [ [ "22_lr", 10 ] ], [ [ "40x46mm_hornets_nest_22lr_casing", 1 ] ], [ [ "lgpistol_primer", 1 ] ] ],
-    "count": 1
+    "components": [ [ [ "22_lr", 10 ] ], [ [ "40x46mm_hornets_nest_22lr_casing", 1 ] ], [ [ "lgpistol_primer", 1 ] ] ]
   },
   {
     "result": "40x46mm_hornets_nest_410",
@@ -79,13 +79,13 @@
     "skills_required": [ "launcher", 1 ],
     "autolearn": true,
     "time": "2 m",
+    "charges": 1,
     "reversible": true,
     "components": [
       [ [ "410shot_000", 4 ], [ "reloaded_410shot_000", 4 ] ],
       [ [ "40x46mm_hornets_nest_410_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "40x46mm_slug_m118",
@@ -99,6 +99,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 1 ], [ "ammo_bullet", 8 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -111,8 +112,7 @@
       [ [ "gunpowder_shotgun", 2 ] ],
       [ [ "40x46mm_m118_casing", 1 ] ],
       [ [ "smpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "40x46mm_slug_m199",
@@ -126,6 +126,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 1 ], [ "ammo_bullet", 8 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -138,8 +139,7 @@
       [ [ "gunpowder_shotgun", 2 ] ],
       [ [ "40x46mm_m199_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "40x46mm_flechette_m118",
@@ -153,6 +153,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
@@ -165,8 +166,7 @@
       [ [ "gunpowder_shotgun", 2 ] ],
       [ [ "40x46mm_m118_casing", 1 ] ],
       [ [ "smpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "40x46mm_flechette_m199",
@@ -180,6 +180,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
@@ -192,8 +193,7 @@
       [ [ "gunpowder_shotgun", 2 ] ],
       [ [ "40x46mm_m199_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "bp_40x46mm_buckshot_m118",
@@ -207,6 +207,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 8 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -218,8 +219,7 @@
       [ [ "chem_black_powder", 2 ] ],
       [ [ "40x46mm_m118_casing", 1 ] ],
       [ [ "smpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "bp_40x46mm_buckshot_m199",
@@ -233,6 +233,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "using": [ [ "shot_forming", 1 ], [ "ammo_bullet", 8 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -244,8 +245,7 @@
       [ [ "chem_black_powder", 2 ] ],
       [ [ "40x46mm_m199_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "bp_40x46mm_slug_m118",
@@ -259,6 +259,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 1 ], [ "ammo_bullet", 8 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -270,8 +271,7 @@
       [ [ "chem_black_powder", 2 ] ],
       [ [ "40x46mm_m118_casing", 1 ] ],
       [ [ "smpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "bp_40x46mm_slug_m199",
@@ -285,6 +285,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 1 ], [ "ammo_bullet", 8 ] ],
     "proficiencies": [ { "proficiency": "prof_handloading" } ],
@@ -296,8 +297,7 @@
       [ [ "chem_black_powder", 2 ] ],
       [ [ "40x46mm_m199_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "bp_40x46mm_flechette_m118",
@@ -311,6 +311,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
@@ -322,8 +323,7 @@
       [ [ "chem_black_powder", 2 ] ],
       [ [ "40x46mm_m118_casing", 1 ] ],
       [ [ "smpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   },
   {
     "result": "bp_40x46mm_flechette_m199",
@@ -337,6 +337,7 @@
     "time": "10 m",
     "batch_time_factors": [ 60, 5 ],
     "book_learn": [ [ "recipe_bullets", 3 ], [ "manual_shotgun", 3 ] ],
+    "charges": 1,
     "reversible": true,
     "tools": [ [ [ "press", -1 ] ], [ [ "swage", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 2 } ],
@@ -348,7 +349,6 @@
       [ [ "chem_black_powder", 2 ] ],
       [ [ "40x46mm_m199_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ]
-    ],
-    "count": 1
+    ]
   }
 ]
