@@ -234,7 +234,8 @@
     "price": 1500,
     "price_postapoc": 150,
     "material": [ "veggy" ],
-    "volume": "250 ml",
+    "volume": "500 ml",
+    "charges": 2,
     "//": "TODO: Confirm nutrition facts for aspic",
     "flags": [ "EATEN_COLD", "FREEZERBURN" ]
   },
@@ -264,7 +265,8 @@
     "container": "can_medium",
     "quench": 5,
     "calories": 152,
-    "volume": "250 ml",
+    "volume": "500 ml",
+    "charges": 2,
     "description": "Canned corn in water.  Eat up!",
     "price": 200,
     "price_postapoc": 150,
@@ -343,8 +345,9 @@
     "price": 450,
     "price_postapoc": 25,
     "material": [ "veggy", "powder" ],
-    "volume": "107 ml",
+    "volume": "1070 ml",
     "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 10,
     "fun": -5
   },
   {
@@ -385,10 +388,11 @@
     "price_postapoc": 300,
     "material": [ "veggy" ],
     "primary_material": "dried_vegetable",
-    "volume": "83 ml",
+    "volume": "250 ml",
     "milling": { "into": "flour_wheat_free", "conversion_rate": 3 },
     "cooks_like": "rice_cooked",
     "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 3,
     "vitamins": [ [ "iron", 3 ] ],
     "fun": -15
   },
@@ -408,8 +412,8 @@
     "price_postapoc": 50,
     "flags": [ "EATEN_HOT", "FREEZERBURN", "NUTRIENT_OVERRIDE" ],
     "fun": 2,
-    "vitamins": [ [ "iron", 11 ] ],
-    "volume": "83 ml"
+    "charges": 1,
+    "vitamins": [ [ "iron", 11 ] ]
   },
   {
     "type": "COMESTIBLE",
@@ -480,11 +484,12 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "calories": 525,
+    "charges": 4,
     "description": "A tofu stirfry with rice and a sweet, bold flavor sure to stay on your mind through these dark days.",
     "price": 1200,
     "price_postapoc": 200,
     "material": [ "veggy" ],
-    "volume": "250 ml",
+    "volume": "1 L",
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "fun": 19,
     "vitamins": [ [ "calcium", 7 ], [ "iron", 5 ], [ "vitC", 24 ] ]
@@ -602,7 +607,8 @@
     "sealed": true,
     "material": [ "veggy" ],
     "volume": "250 ml",
-    "delete": { "flags": [ "RAW" ] }
+    "delete": { "flags": [ "RAW" ] },
+    "charges": 1
   },
   {
     "type": "COMESTIBLE",
@@ -620,7 +626,8 @@
     "price": 1250,
     "price_postapoc": 2000,
     "material": [ "wheat", "veggy" ],
-    "volume": "250 ml",
+    "volume": "2 L",
+    "charges": 8,
     "flags": [ "EATEN_HOT" ],
     "fun": 3,
     "vitamins": [ [ "vitC", 4 ], [ "calcium", 3 ], [ "iron", 14 ] ]
@@ -640,7 +647,8 @@
     "price": 990,
     "price_postapoc": 500,
     "material": [ "wheat", "veggy", "tomato" ],
-    "volume": "250 ml",
+    "volume": "1 L",
+    "charges": 4,
     "flags": [ "EATEN_HOT" ],
     "fun": 10,
     "vitamins": [ [ "vitC", 20 ], [ "calcium", 30 ], [ "iron", 20 ] ]
@@ -790,7 +798,8 @@
     "price": 1000,
     "price_postapoc": 200,
     "material": [ "wheat", "veggy", "nut" ],
-    "volume": "250 ml",
+    "volume": "500 ml",
+    "charges": 2,
     "flags": [ "EATEN_HOT", "FREEZERBURN" ],
     "fun": 15,
     "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ] ]
@@ -929,8 +938,9 @@
     "price_postapoc": 100,
     "material": [ "veggy" ],
     "primary_material": "dried_vegetable",
-    "volume": "125 ml",
-    "flags": [ "EDIBLE_FROZEN" ]
+    "volume": "250 ml",
+    "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 2
   },
   {
     "type": "COMESTIBLE",
@@ -1106,7 +1116,8 @@
     "price": 100,
     "price_postapoc": 400,
     "material": [ "veggy" ],
-    "volume": "62 ml",
+    "volume": "250 ml",
+    "charges": 4,
     "fun": 3,
     "vitamins": [  ]
   },
@@ -1125,7 +1136,8 @@
     "price": 210,
     "price_postapoc": 100,
     "material": [ "veggy" ],
-    "volume": "125 ml",
+    "volume": "250 ml",
+    "charges": 2,
     "fun": 8,
     "vitamins": [  ]
   },
@@ -1196,8 +1208,9 @@
     "price": 100,
     "price_postapoc": 50,
     "material": [ "veggy" ],
-    "volume": "167 ml",
+    "volume": "500 ml",
     "vitamins": [ [ "vitC", 9 ], [ "calcium", 16 ], [ "iron", 3 ] ],
+    "charges": 3,
     "fun": 3
   },
   {
