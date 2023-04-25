@@ -2,7 +2,6 @@
  */
 
 // IWYU pragma: no_include <sys/signal.h>
-#include <clocale>
 #include <algorithm>
 #include <array>
 #include <clocale>
@@ -23,6 +22,9 @@
 #else
 #include <csignal>
 #endif
+
+#include <flatbuffers/util.h>
+
 #include "cached_options.h"
 #include "cata_path.h"
 #include "color.h"
@@ -31,6 +33,8 @@
 #include "cursesdef.h"
 #include "debug.h"
 #include "do_turn.h"
+#include "event.h"
+#include "event_bus.h"
 #include "filesystem.h"
 #include "game.h"
 #include "game_constants.h"
@@ -207,7 +211,6 @@ void printHelpMessage( const FirstPassArgs &first_pass_arguments,
         }
     }
 }
-
 
 /**
  * Displays current application version and compile options values
@@ -605,6 +608,7 @@ int main( int argc, const char *argv[] )
     ordered_static_globals();
     init_crash_handlers();
     reset_floating_point_mode();
+    flatbuffers::ClassicLocale::Get();
 
 #if defined(_WIN32) and defined(TILES)
     const HANDLE std_output { GetStdHandle( STD_OUTPUT_HANDLE ) }, std_error { GetStdHandle( STD_ERROR_HANDLE ) };
@@ -731,6 +735,9 @@ int main( int argc, const char *argv[] )
             DebugLog( D_ERROR, DC_ALL ) << "Error while initializing the interface: " << err.what() << "\n";
             return 1;
         }
+    } else if( cli.check_mods ) {
+        get_options().init();
+        get_options().load();
     }
 
     set_language();
@@ -807,6 +814,7 @@ int main( int argc, const char *argv[] )
         }
 
         shared_ptr_fast<ui_adaptor> ui = g->create_or_get_main_ui_adaptor();
+        get_event_bus().send<event_type::game_begin>( getVersionString() );
         while( !do_turn() );
     }
 

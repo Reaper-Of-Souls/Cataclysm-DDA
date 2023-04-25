@@ -9,7 +9,6 @@
     "price": 1000,
     "price_postapoc": 1000,
     "to_hit": 1,
-    "bashing": 1,
     "material": [ "leather" ],
     "symbol": "[",
     "looks_like": "leather_pouch",
@@ -50,8 +49,6 @@
           "12mm": 60,
           "8x40mm": 60,
           "20x66mm": 60,
-          "5x50": 60,
-          "metal_rail": 60,
           "stimpack_ammo": 60,
           "ampoule": 60,
           "300": 60,
@@ -67,7 +64,8 @@
       }
     ],
     "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
-    "armor": [ { "encumbrance": 5, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
+    "armor": [ { "encumbrance": 5, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ],
+    "melee_damage": { "bash": 1 }
   },
   {
     "id": "ammo_satchel",
@@ -293,8 +291,17 @@
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "NOT_FOOTWEAR", "PALS_SMALL" ],
-    "armor": [ { "encumbrance": 1, "coverage": 5, "covers": [ "foot_l", "foot_r" ] } ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "PALS_SMALL" ],
+    "armor": [
+      {
+        "material": [ { "type": "nylon", "covered_by_mat": 100, "thickness": 2 } ],
+        "covers": [ "foot_l", "foot_r" ],
+        "specifically_covers": [ "foot_ankle_l", "foot_ankle_r" ],
+        "coverage": 25,
+        "encumbrance": 1,
+        "layers": [ "OUTER" ]
+      }
+    ]
   },
   {
     "type": "ARMOR",
@@ -332,7 +339,7 @@
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "PALS_MEDIUM" ],
+    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "PALS_MEDIUM" ],
     "armor": [
       {
         "encumbrance": 1,
@@ -351,7 +358,6 @@
     "volume": "500 ml",
     "price": 6500,
     "price_postapoc": 1000,
-    "bashing": 2,
     "material": [ "leather" ],
     "symbol": "[",
     "looks_like": "bscabbard",
@@ -367,7 +373,8 @@
         "covers": [ "leg_l", "leg_r" ],
         "specifically_covers": [ "leg_upper_l", "leg_upper_r" ]
       }
-    ]
+    ],
+    "melee_damage": { "bash": 2 }
   },
   {
     "id": "quiver_birchbark",
@@ -378,7 +385,6 @@
     "volume": "500 ml",
     "price": 6500,
     "price_postapoc": 750,
-    "bashing": 2,
     "material": [ "wood" ],
     "symbol": "[",
     "looks_like": "quiver",
@@ -394,7 +400,8 @@
         "covers": [ "leg_l", "leg_r" ],
         "specifically_covers": [ "leg_upper_l", "leg_upper_r" ]
       }
-    ]
+    ],
+    "melee_damage": { "bash": 2 }
   },
   {
     "id": "quiver_large",
@@ -405,7 +412,6 @@
     "volume": "1500 ml",
     "price": 8800,
     "price_postapoc": 1500,
-    "bashing": 4,
     "material": [ "leather", "steel" ],
     "symbol": "[",
     "looks_like": "quiver",
@@ -413,7 +419,8 @@
     "material_thickness": 1,
     "pocket_data": [ { "ammo_restriction": { "arrow": 60, "bolt": 60 }, "moves": 20 } ],
     "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY" ],
-    "armor": [ { "encumbrance": 3, "coverage": 30, "covers": [ "torso" ], "specifically_covers": [ "torso_hanging_back" ] } ]
+    "armor": [ { "encumbrance": 3, "coverage": 30, "covers": [ "torso" ], "specifically_covers": [ "torso_hanging_back" ] } ],
+    "melee_damage": { "bash": 4 }
   },
   {
     "id": "quiver_large_birchbark",
@@ -424,7 +431,6 @@
     "volume": "1500 ml",
     "price": 8800,
     "price_postapoc": 1250,
-    "bashing": 4,
     "material": [ "wood" ],
     "symbol": "[",
     "looks_like": "quiver_birchbark",
@@ -432,7 +438,8 @@
     "material_thickness": 1,
     "pocket_data": [ { "ammo_restriction": { "arrow": 60, "bolt": 60 }, "moves": 20 } ],
     "flags": [ "BELTED", "VARSIZE", "OVERSIZE", "WATER_FRIENDLY" ],
-    "armor": [ { "encumbrance": 14, "coverage": 30, "covers": [ "torso" ], "specifically_covers": [ "torso_hanging_back" ] } ]
+    "armor": [ { "encumbrance": 14, "coverage": 30, "covers": [ "torso" ], "specifically_covers": [ "torso_hanging_back" ] } ],
+    "melee_damage": { "bash": 4 }
   },
   {
     "id": "quiver_takedown_bow",
@@ -444,7 +451,6 @@
     "volume": "1500 ml",
     "price": 8800,
     "price_postapoc": 1500,
-    "bashing": 4,
     "material": [ "cotton" ],
     "symbol": "[",
     "looks_like": "quiver",
@@ -480,7 +486,8 @@
         "covers": [ "torso" ],
         "specifically_covers": [ "torso_hanging_back" ]
       }
-    ]
+    ],
+    "melee_damage": { "bash": 4 }
   },
   {
     "id": "tacvest",
@@ -796,7 +803,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "flags": [ "BELTED", "WATER_FRIENDLY", "OVERSIZE", "PALS_SMALL" ],
     "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -825,7 +832,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_SMALL" ],
     "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -862,7 +869,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_MEDIUM" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_MEDIUM" ],
     "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -891,7 +898,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_MEDIUM" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_MEDIUM" ],
     "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -920,7 +927,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_LARGE" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
     "armor": [ { "encumbrance": 1, "coverage": 10, "covers": [ "torso" ], "specifically_covers": [ "torso_upper" ] } ]
   },
   {
@@ -950,7 +957,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_SMALL" ],
     "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -1030,7 +1037,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_MEDIUM" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_MEDIUM" ],
     "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -1059,7 +1066,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_SMALL" ],
     "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -1134,7 +1141,7 @@
       }
     ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_LARGE" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
     "armor": [ { "encumbrance": 2, "coverage": 10, "covers": [ "torso" ], "specifically_covers": [ "torso_upper" ] } ]
   },
   {
@@ -1154,7 +1161,7 @@
     "color": "dark_gray",
     "pocket_data": [ { "ammo_restriction": { "410shot": 12, "shot": 12, "20x66mm": 12, "signal_flare": 12, "308": 20 }, "moves": 30 } ],
     "material_thickness": 0.5,
-    "flags": [ "BELTED", "WATER_FRIENDLY", "PALS_MEDIUM" ],
+    "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_MEDIUM" ],
     "armor": [ { "encumbrance": 2, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -1168,7 +1175,6 @@
     "volume": "8 L",
     "price_postapoc": 2500,
     "to_hit": -3,
-    "bashing": 6,
     "material": [ "kevlar_layered", "nylon" ],
     "symbol": "[",
     "looks_like": "kevlar",
@@ -1200,7 +1206,8 @@
         "covers": [ "torso" ],
         "specifically_covers": [ "torso_lower" ]
       }
-    ]
+    ],
+    "melee_damage": { "bash": 6 }
   },
   {
     "id": "ammo_satchel_leather",
@@ -1228,7 +1235,7 @@
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "PALS_LARGE" ],
+    "flags": [ "WATER_FRIENDLY", "OVERSIZE", "BELTED", "PALS_LARGE" ],
     "armor": [ { "encumbrance": 1, "coverage": 20, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
@@ -1257,7 +1264,100 @@
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "PALS_SMALL" ],
+    "flags": [ "WATER_FRIENDLY", "OVERSIZE", "BELTED", "PALS_SMALL" ],
     "armor": [ { "coverage": 25, "covers": [ "torso" ], "specifically_covers": [ "torso_upper" ] } ]
+  },
+  {
+    "id": "belt_loop_small",
+    "type": "ARMOR",
+    "repairs_like": "legrig",
+    "name": { "str": "small belt loop" },
+    "description": "A MOLLE-compatible loop for attaching small tools to a load-bearing vest.",
+    "weight": "25 g",
+    "volume": "25 ml",
+    "price": 1000,
+    "price_postapoc": 100,
+    "to_hit": 1,
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "leather_pouch",
+    "color": "brown",
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "holster": true,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "500 g",
+        "max_item_length": "30 cm",
+        "moves": 50,
+        "flag_restriction": [ "BELT_CLIP" ],
+        "volume_encumber_modifier": 0.3
+      }
+    ],
+    "flags": [ "CANT_WEAR", "WATER_FRIENDLY", "PALS_SMALL" ],
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "melee_damage": { "bash": 1 }
+  },
+  {
+    "id": "belt_loop_medium",
+    "type": "ARMOR",
+    "repairs_like": "legrig",
+    "name": { "str": "medium belt loop" },
+    "description": "A MOLLE-compatible loop for attaching tools and some weapons to a load-bearing vest.",
+    "weight": "50 g",
+    "volume": "50 ml",
+    "price": 1000,
+    "price_postapoc": 100,
+    "to_hit": 1,
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "leather_pouch",
+    "color": "brown",
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "holster": true,
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "1500 g",
+        "max_item_length": "60 cm",
+        "moves": 50,
+        "flag_restriction": [ "BELT_CLIP" ],
+        "volume_encumber_modifier": 0.3
+      }
+    ],
+    "flags": [ "CANT_WEAR", "WATER_FRIENDLY", "PALS_MEDIUM" ],
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "melee_damage": { "bash": 1 }
+  },
+  {
+    "id": "belt_loop_large",
+    "type": "ARMOR",
+    "repairs_like": "legrig",
+    "name": { "str": "large belt loop" },
+    "description": "A MOLLE-compatible loop for attaching large tools and weapons to a load-bearing vest.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "price": 1000,
+    "price_postapoc": 100,
+    "to_hit": 1,
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "looks_like": "leather_pouch",
+    "color": "brown",
+    "material_thickness": 1,
+    "pocket_data": [
+      {
+        "holster": true,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "6000 g",
+        "max_item_length": "100 cm",
+        "moves": 50,
+        "flag_restriction": [ "BELT_CLIP" ],
+        "volume_encumber_modifier": 0.3
+      }
+    ],
+    "flags": [ "CANT_WEAR", "WATER_FRIENDLY", "PALS_LARGE" ],
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
+    "melee_damage": { "bash": 1 }
   }
 ]
