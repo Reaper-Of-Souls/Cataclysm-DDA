@@ -465,8 +465,7 @@
     "//": "This item should not get any use whatsoever, it is merely conservation of mass and an attractor for carrion.",
     "symbol": "¨",
     "name": { "str_sp": "butchery refuse" },
-    "charges": 15,
-    "volume": "2500 ml",
+    "volume": "167 ml",
     "weight": "250 g",
     "color": "black",
     "looks_like": "feces_manure",
@@ -618,9 +617,8 @@
     "type": "COMESTIBLE",
     "name": { "str_sp": "pickled offal" },
     "description": "A mass of entrails and organ meat, preserved in brine.  Packed with essential vitamins, and although it looks like a lab specimen, it actually tastes pretty palatable.",
-    "volume": "500 ml",
+    "volume": "250 ml",
     "price_postapoc": 300,
-    "stack_size": 2,
     "parasites": 0,
     "container": "jar_glass_sealed",
     "spoils_in": "1 day 12 hours",
@@ -634,9 +632,8 @@
     "type": "COMESTIBLE",
     "name": { "str_sp": "canned offal" },
     "description": "Cooked organ meat and entrails, preserved by canning.  Unappetizing, but filled with essential vitamins.",
-    "volume": "500 ml",
+    "volume": "250 ml",
     "price_postapoc": 300,
-    "stack_size": 2,
     "parasites": 0,
     "container": "can_medium",
     "fun": -2,
@@ -790,9 +787,8 @@
     "name": { "str": "piece of raw lung", "str_pl": "pieces of raw lung" },
     "description": "A portion of lung from an animal.  It's spongy and pink, and spoils very quickly.  It can be a delicacy if properly prepared - but if improperly prepared, it's a chewy lump of flavorless connective tissue.",
     "weight": "56 g",
-    "volume": "250 ml",
+    "volume": "62 ml",
     "color": "pink",
-    "charges": 4,
     "spoils_in": "1 day",
     "price_postapoc": 25,
     "quench": 2,
@@ -1197,7 +1193,6 @@
     "material": [ "flesh" ],
     "volume": "250 ml",
     "parasites": 32,
-    "stack_size": 1,
     "fun": -20
   },
   {
@@ -1216,9 +1211,7 @@
     "price_postapoc": 800,
     "//": "*May* have been commercially traded.",
     "material": [ "flesh" ],
-    "volume": "250 ml",
-    "charges": 2,
-    "stack_size": 4,
+    "volume": "62 ml",
     "vitamins": [  ],
     "fun": -18
   },
@@ -1408,9 +1401,7 @@
     "price_postapoc": 50,
     "//": "Not for use in edible/foodsafe recipes.  Inefficiency is handled by tainted tallow recipe requiring 200% as much materials input as regular tallow recipe.",
     "material": [ "flesh" ],
-    "volume": "250 ml",
-    "charges": 2,
-    "stack_size": 4,
+    "volume": "62 ml",
     "fun": -18
   },
   {
@@ -1474,7 +1465,6 @@
     "price_postapoc": 20,
     "material": [ "flesh" ],
     "flags": [ "TRADER_AVOID" ],
-    "stack_size": 1,
     "fun": -12
   },
   {
@@ -1523,7 +1513,6 @@
     "price_postapoc": 100,
     "material": [ "fur", "flesh" ],
     "flags": [ "NO_SALVAGE", "TRADER_AVOID" ],
-    "stack_size": 1,
     "fun": -24
   },
   {
